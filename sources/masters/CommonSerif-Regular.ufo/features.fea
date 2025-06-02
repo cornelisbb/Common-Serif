@@ -9162,8 +9162,6 @@ feature mark {
     markClass uni1FFD <anchor 66 500> @t.gr_UC;
     markClass uni1FFE <anchor 146 641> @apostrophe;
     markClass uni1FFE <anchor 93 500> @t.gr_LC;
-    markClass quoteleft <anchor 139 500> @top;
-    markClass quoteright <anchor 138 728> @apostrophe;
     markClass grave.cap <anchor -175 740> @top;
     markClass acute.cap <anchor -248 740> @top;
     markClass circumflex.cap <anchor -133 740> @top;

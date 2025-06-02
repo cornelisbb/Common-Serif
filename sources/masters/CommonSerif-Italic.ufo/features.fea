@@ -1227,7 +1227,6 @@ feature mark {
     markClass uni1FEF <anchor 206 500> @t.gr_LC;
     markClass uni1FFD <anchor 224 500> @t.gr_LC;
     markClass uni1FFE <anchor 267 652> @t.gr;
-    markClass quoteleft <anchor 260 500> @top;
     markClass grave.cap <anchor 15 740> @top;
     markClass acute.cap <anchor 1 740> @top;
     markClass circumflex.cap <anchor 40 740> @top;

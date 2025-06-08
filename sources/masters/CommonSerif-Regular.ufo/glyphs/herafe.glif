@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="herafe" format="2">
+  <advance width="478"/>
+  <anchor x="0" y="0" name="holem"/>
+  <anchor x="238" y="0" name="qubuts"/>
+  <anchor x="238" y="0" name="hbsmall"/>
+  <anchor x="238" y="0" name="hbmiddle"/>
+  <anchor x="210" y="0" name="hbwide"/>
+  <anchor x="238" y="0" name="ganuv"/>
+  <anchor x="239" y="0" name="meteg"/>
+  <outline>
+    <component base="uni05BF" xOffset="230"/>
+    <component base="uni05D4"/>
+  </outline>
+</glyph>

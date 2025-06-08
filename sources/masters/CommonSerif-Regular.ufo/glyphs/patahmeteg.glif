@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="patahmeteg" format="2">
+  <advance width="0"/>
+  <anchor x="0" y="0" name="_meteg"/>
+  <outline>
+    <component base="uni05BD" xOffset="-104.75"/>
+    <component base="uni05B7" xOffset="40.75"/>
+  </outline>
+</glyph>

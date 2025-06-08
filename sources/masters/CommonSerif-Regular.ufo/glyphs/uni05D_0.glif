@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni05D0" format="2">
   <advance width="481"/>
   <unicode hex="05D0"/>
+  <anchor x="0" y="0" name="holem"/>
+  <anchor x="240" y="0" name="qubuts"/>
+  <anchor x="240" y="0" name="hbsmall"/>
+  <anchor x="240" y="0" name="hbwide"/>
+  <anchor x="240" y="0" name="hbmiddle"/>
+  <anchor x="240" y="0" name="meteq"/>
   <outline>
     <contour>
       <point x="407" y="-9" type="curve"/>
@@ -93,27 +99,27 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>e8ab8f710ae96cea003e1e4e31e8a3ed991bfedf958ee96ebb7d979e57c3fbcf9e9e5da1ad5cf958a108ec0c8ad7a7d2b631158d9c308b6ca3acd0fedebbd445</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 12 -21</string>
-          <string>hstem 21 -21</string>
-          <string>vstem 33 50</string>
-          <string>vstem 70 112</string>
-          <string>vstem 288 166</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 12 -21</string>
+              <string>hstem 21 -21</string>
+              <string>vstem 33 50</string>
+              <string>vstem 70 112</string>
+              <string>vstem 288 166</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>e8ab8f710ae96cea003e1e4e31e8a3ed991bfedf958ee96ebb7d979e57c3fbcf9e9e5da1ad5cf958a108ec0c8ad7a7d2b631158d9c308b6ca3acd0fedebbd445</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

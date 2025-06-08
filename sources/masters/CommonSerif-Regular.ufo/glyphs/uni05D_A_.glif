@@ -2,6 +2,10 @@
 <glyph name="uni05DA" format="2">
   <advance width="475"/>
   <unicode hex="05DA"/>
+  <anchor x="200" y="290" name="hbsmall"/>
+  <anchor x="137" y="240" name="hbmiddle"/>
+  <anchor x="137" y="0" name="hbwide"/>
+  <anchor x="237" y="0" name="meteg"/>
   <outline>
     <contour>
       <point x="392" y="361" type="line"/>

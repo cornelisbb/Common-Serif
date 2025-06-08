@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hatafpatahmeteg" format="2">
+  <advance width="0"/>
+  <anchor x="0" y="0" name="_meteg"/>
+  <outline>
+    <component base="uni05BD" xOffset="51"/>
+    <component base="uni05B0" xOffset="136"/>
+    <component base="uni05B7" xOffset="-89"/>
+  </outline>
+</glyph>

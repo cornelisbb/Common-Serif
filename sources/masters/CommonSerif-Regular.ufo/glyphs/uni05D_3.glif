@@ -2,6 +2,12 @@
 <glyph name="uni05D3" format="2">
   <advance width="438"/>
   <unicode hex="05D3"/>
+  <anchor x="0" y="0" name="holem"/>
+  <anchor x="274" y="0" name="qubuts"/>
+  <anchor x="295" y="0" name="hbsmall"/>
+  <anchor x="274" y="0" name="hbmiddle"/>
+  <anchor x="274" y="0" name="hbwide"/>
+  <anchor x="219" y="0" name="meteg"/>
   <outline>
     <contour>
       <point x="331" y="291" type="curve" smooth="yes"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni05C2" format="2">
   <unicode hex="05C2"/>
   <outline>
@@ -18,24 +18,24 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w0m-56,628c-56,605 -38,586 -15,586c8,586 27,605 27,628c27,651 8,669 -15,669c-38,669 -56,651 -56,628</string>
-    <key>hintSetList</key>
-    <array>
+    <dict>
+      <key>public.postscript.hints</key>
       <dict>
-        <key>stems</key>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>hintSetList</key>
         <array>
-          <string>hstem 586 83</string>
-          <string>vstem -56 83</string>
+          <dict>
+            <key>stems</key>
+            <array>
+              <string>hstem 586 83</string>
+              <string>vstem -56 83</string>
+            </array>
+          </dict>
         </array>
+        <key>id</key>
+        <string>w0m-56,628c-56,605 -38,586 -15,586c8,586 27,605 27,628c27,651 8,669 -15,669c-38,669 -56,651 -56,628</string>
       </dict>
-    </array>
-  </dict>
-  </dict>
+    </dict>
   </lib>
 </glyph>

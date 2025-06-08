@@ -5990,17 +5990,18 @@
   <string>zhwe-cy.glif</string>
   <key>zjekomicyr</key>
   <string>zjekomicyr.glif</string>
-  <string>uniE_801.glif</string>
   <key>uniE801</key>
-  <string>uniE_802.glif</string>
+  <string>uniE_801.glif</string>
   <key>uniE802</key>
-  <string>uniE_803.glif</string>
+  <string>uniE_802.glif</string>
   <key>uniE803</key>
-    <string>uniF_B_20.glif</string>
-    <key>uniFB21</key>
-    <string>uniF_B_21.glif</string>
-    <key>uniFB22</key>
-    <string>uniF_B_22.glif</string>
+  <string>uniE_803.glif</string>
+  <key>uniFB20</key>
+  <string>uniF_B_20.glif</string>
+  <key>uniFB21</key>
+  <string>uniF_B_21.glif</string>
+  <key>uniFB22</key>
+  <string>uniF_B_22.glif</string>
     <key>uniFB23</key>
     <string>uniF_B_23.glif</string>
     <key>uniFB24</key>

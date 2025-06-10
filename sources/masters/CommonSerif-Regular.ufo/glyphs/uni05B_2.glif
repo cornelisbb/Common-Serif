@@ -1,9 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni05B2" format="2">
+  <advance width="0"/>
   <unicode hex="05B2"/>
-  <anchor x="0" y="0" name="_hbwide"/>
   <outline>
-    <component base="uni05B7" xOffset="-56.5"/>
-    <component base="uni05B0" xOffset="103.5"/>
+    <contour>
+      <point x="82" y="-109" type="curve" smooth="yes"/>
+      <point x="82" y="-90"/>
+      <point x="98" y="-75"/>
+      <point x="117" y="-75" type="curve" smooth="yes"/>
+      <point x="136" y="-75"/>
+      <point x="152" y="-90"/>
+      <point x="152" y="-109" type="curve" smooth="yes"/>
+      <point x="152" y="-128"/>
+      <point x="136" y="-144"/>
+      <point x="117" y="-144" type="curve" smooth="yes"/>
+      <point x="98" y="-144"/>
+      <point x="82" y="-128"/>
+    </contour>
+    <contour>
+      <point x="-152" y="-116" type="line"/>
+      <point x="-152" y="-75" type="line"/>
+      <point x="-15" y="-75" type="line"/>
+      <point x="-15" y="-116" type="line"/>
+    </contour>
+    <contour>
+      <point x="82" y="-216" type="curve" smooth="yes"/>
+      <point x="82" y="-197"/>
+      <point x="98" y="-182"/>
+      <point x="117" y="-182" type="curve" smooth="yes"/>
+      <point x="136" y="-182"/>
+      <point x="152" y="-197"/>
+      <point x="152" y="-216" type="curve" smooth="yes"/>
+      <point x="152" y="-235"/>
+      <point x="136" y="-251"/>
+      <point x="117" y="-251" type="curve" smooth="yes"/>
+      <point x="98" y="-251"/>
+      <point x="82" y="-235"/>
+    </contour>
   </outline>
 </glyph>

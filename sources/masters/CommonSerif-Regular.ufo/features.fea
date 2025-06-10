@@ -12390,7 +12390,7 @@ feature mark {
 	<anchor 257 0> mark @hbsmall
 	<anchor 257 0> mark @qubuts
 	<anchor 0 0> mark @holem;
-  pos base [\circledotted ] <anchor 260 220> mark @dagesh
+  pos base [\uni25CC ] <anchor 260 220> mark @dagesh
 	<anchor 0 0> mark @holem
 	<anchor 262 0> mark @qubuts
 	<anchor 262 0> mark @hbsmall

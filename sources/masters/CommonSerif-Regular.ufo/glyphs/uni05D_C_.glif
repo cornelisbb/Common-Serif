@@ -2,12 +2,6 @@
 <glyph name="uni05DC" format="2">
   <advance width="476"/>
   <unicode hex="05DC"/>
-  <anchor x="-125" y="0" name="holem"/>
-  <anchor x="238" y="0" name="qubuts"/>
-  <anchor x="225" y="0" name="hbsmall"/>
-  <anchor x="230" y="0" name="hbmiddle"/>
-  <anchor x="230" y="0" name="hbwide"/>
-  <anchor x="238" y="0" name="meteg"/>
   <outline>
     <contour>
       <point x="82" y="558" type="curve" smooth="yes"/>

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="patah.ganuv" format="2">
   <advance width="0"/>
-  <anchor x="0" y="0" name="_ganuv"/>
+  <anchor x="0" y="0" name="_Anchor-17"/>
   <outline>
-    <component base="uni05B7" xOffset="81"/>
+    <contour>
+      <point x="332" y="-129" type="line"/>
+      <point x="332" y="-87" type="line"/>
+      <point x="496" y="-87" type="line"/>
+      <point x="496" y="-129" type="line"/>
+    </contour>
   </outline>
 </glyph>

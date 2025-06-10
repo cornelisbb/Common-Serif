@@ -544,8 +544,6 @@
   <string>agrave.glif</string>
   <key>agrave.sc</key>
   <string>agrave.sc.glif</string>
-  <key>alefmapiq</key>
-  <string>alefmapiq.glif</string>
   <key>aleph</key>
   <string>aleph.glif</string>
   <key>alpha</key>
@@ -5998,24 +5996,6 @@
   <string>uniE_803.glif</string>
   <key>uniFB20</key>
   <string>uniF_B_20.glif</string>
-  <key>uniFB21</key>
-  <string>uniF_B_21.glif</string>
-  <key>uniFB22</key>
-  <string>uniF_B_22.glif</string>
-    <key>uniFB23</key>
-    <string>uniF_B_23.glif</string>
-    <key>uniFB24</key>
-    <string>uniF_B_24.glif</string>
-    <key>uniFB25</key>
-    <string>uniF_B_25.glif</string>
-    <key>uniFB26</key>
-    <string>uniF_B_26.glif</string>
-    <key>uniFB27</key>
-    <string>uniF_B_27.glif</string>
-    <key>uniFB28</key>
-    <string>uniF_B_28.glif</string>
-    <key>uniFB29</key>
-    <string>uniF_B_29.glif</string>
     <key>uniFB2A</key>
     <string>uniF_B_2A_.glif</string>
     <key>uniFB2B</key>
@@ -6110,7 +6090,5 @@
     <string>hiriqmeteg.glif</string>
     <key>holamalef</key>
     <string>holamalef.glif</string>
-    <key>circledotted</key>
-    <string>circledotted.glif</string>
 </dict>
 </plist>

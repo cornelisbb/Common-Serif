@@ -1,32 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni05BF" format="2">
+  <advance width="0"/>
   <unicode hex="05BF"/>
   <outline>
     <contour>
       <point x="-82" y="601" type="line"/>
-      <point x="82" y="601" type="line"/>
-      <point x="82" y="643" type="line"/>
       <point x="-82" y="643" type="line"/>
+      <point x="82" y="643" type="line"/>
+      <point x="82" y="601" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.postscript.hints</key>
-      <dict>
-        <key>formatVersion</key>
-        <string>1</string>
-        <key>hintSetList</key>
-        <array>
-          <dict>
-            <key>stems</key>
-            <array>
-              <string>hstem 601 42</string>
-            </array>
-          </dict>
-        </array>
-        <key>id</key>
-        <string>w0m84,601l248,601l248,643l84,643</string>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

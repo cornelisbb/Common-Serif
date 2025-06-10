@@ -2,14 +2,8 @@
 <glyph name="uniFB30" format="2">
   <advance width="481"/>
   <unicode hex="FB30"/>
-  <anchor name="holem" x="0" y="0"/>
-	<anchor name="qubuts" x="240" y="0"/>
-	<anchor name="hbsmall" x="240" y="0"/>
-	<anchor name="hbwide" x="240" y="0"/>
-	<anchor name="hbmiddle" x="240" y="0"/>
-	<anchor name="meteg" x="240" y="0"/>
   <outline>
-    <component base="uni05BC" xOffset="254" yOffset="-189"/>
+    <component base="uni05BC" xOffset="287" yOffset="-193.5"/>
     <component base="uni05D0"/>
   </outline>
 </glyph>

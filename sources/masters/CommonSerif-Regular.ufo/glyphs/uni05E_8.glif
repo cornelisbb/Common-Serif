@@ -2,12 +2,6 @@
 <glyph name="uni05E8" format="2">
   <advance width="489"/>
   <unicode hex="05E8"/>
-  <anchor x="0" y="0" name="holem"/>
-  <anchor x="381" y="0" name="qubuts"/>
-  <anchor x="395" y="0" name="hbsmall"/>
-  <anchor x="381" y="0" name="hbmiddle"/>
-  <anchor x="381" y="0" name="hbwide"/>
-  <anchor x="295" y="0" name="meteg"/>
   <outline>
     <contour>
       <point x="381" y="-12" type="line"/>

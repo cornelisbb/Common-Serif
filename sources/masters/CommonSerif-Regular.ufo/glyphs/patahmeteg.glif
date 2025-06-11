@@ -2,17 +2,7 @@
 <glyph name="patahmeteg" format="2">
   <advance width="0"/>
   <outline>
-    <contour>
-      <point x="-125" y="-65" type="line"/>
-      <point x="-88" y="-65" type="line"/>
-      <point x="-88" y="-203" type="line"/>
-      <point x="-125" y="-203" type="line"/>
-    </contour>
-    <contour>
-      <point x="-39" y="-129" type="line"/>
-      <point x="-39" y="-87" type="line"/>
-      <point x="125" y="-87" type="line"/>
-      <point x="125" y="-129" type="line"/>
-    </contour>
+    <component base="uni05BD" xOffset="48"/>
+    <component base="uni05B7" xOffset="133"/>
   </outline>
 </glyph>

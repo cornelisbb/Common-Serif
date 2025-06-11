@@ -12122,3 +12122,281 @@ feature mark {
   lookup markLTR2;
   lookup markLTR3;
 } mark;
+
+# Hebrew
+
+@vowels = [\uni05B0 \uni05B1 \uni05B2 \uni05B3 \uni05B4 \uni05B5 \uni05B6 \uni05B7 \uni05B8 \uni05BB 
+	\uni05B9];
+
+# By default the vavholam is used as vowel. This rule takes of situations where the vav is a consonant
+feature ccmp { # vavholem
+  lookupflag RightToLeft;
+    sub @vowels [\uni05D5 ]' [\uni05B9 ]  by \uniE801;
+} ccmp;
+
+# Several subsitutions
+feature ccmp {
+  lookupflag RightToLeft;
+    sub \uni05D0 \uni05B7  by \uniFB2E;
+    sub \uni05D0 \uni05B8  by \uniFB2F;
+    sub \uni05D5 \uni05B9  by \uniFB4B;
+    sub \uni05DA \uni05B0 by \uniE802;
+    sub \uni05DA \uni05B8 by \uniE803;
+} ccmp;
+
+# Rafe
+feature ccmp {
+  lookupflag RightToLeft;
+    sub \uni05D1 \uni05BF  by \uniFB4C;
+    sub \uni05DB \uni05BF  by \uniFB4D;
+    sub \uni05E4 \uni05BF  by \uniFB4E;
+    sub \uni05D2 \uni05BF by \daletrafe;
+    sub \uni05D3 \uni05BF by \gimelrafe;
+    sub \uni05D4 \uni05BF by \herafe;
+    sub \uni05EA \uni05BF by \tavrafe;
+} ccmp;
+
+# Replace glyphs with dagesh by the dagesh variants
+feature ccmp {
+  lookupflag RightToLeft;
+    sub \uni05D0 \uni05BC  by \uniFB30;
+    sub \uni05D1 \uni05BC  by \uniFB31;
+    sub \uni05D2 \uni05BC  by \uniFB32;
+    sub \uni05D3 \uni05BC  by \uniFB33;
+    sub \uni05D4 \uni05BC  by \uniFB34;
+    sub \uni05D5 \uni05BC  by \uniFB35;
+    sub \uni05D6 \uni05BC  by \uniFB36;
+    sub \uni05D8 \uni05BC  by \uniFB38;
+    sub \uni05D9 \uni05BC  by \uniFB39;
+    sub \uni05DA \uni05BC  by \uniFB3A;
+    sub \uni05DB \uni05BC  by \uniFB3B;
+    sub \uni05DC \uni05BC  by \uniFB3C;
+    sub \uni05DE \uni05BC  by \uniFB3E;
+    sub \uni05E0 \uni05BC  by \uniFB40;
+    sub \uni05E1 \uni05BC  by \uniFB41;
+    sub \uni05E3 \uni05BC  by \uniFB43;
+    sub \uni05E4 \uni05BC  by \uniFB44;
+    sub \uni05E6 \uni05BC  by \uniFB46;
+    sub \uni05E7 \uni05BC  by \uniFB47;
+    sub \uni05E8 \uni05BC  by \uniFB48;
+    sub \uni05E9 \uni05BC  by \uniFB49;
+    sub \uni05EA \uni05BC  by \uniFB4A;
+} ccmp;
+
+# Take care of all shin variants
+feature ccmp {
+  lookupflag RightToLeft;
+    sub \uni05E9 \uni05C1  by \uniFB2A;
+    sub \uni05E9 \uni05C2  by \uniFB2B;
+    sub \uniFB49 \uni05C1  by \uniFB2C;
+    sub \uniFB2A \uni05BC  by \uniFB2C;
+    sub \uni05E9 \uni05C1 \uni05BC  by \uniFB2C;
+    sub \uni05E9 \uni05BC \uni05C1  by \uniFB2C;
+    sub \uniFB49 \uni05C2  by \uniFB2D;
+    sub \uniFB2B \uni05BC  by \uniFB2D;
+    sub \uni05E9 \uni05C2 \uni05BC  by \uniFB2D;
+    sub \uni05E9 \uni05BC \uni05C2  by \uniFB2D;
+} ccmp;
+
+# The rules to take care of the furtive patah
+lookup PatahToPatahGanuv {
+  lookupflag RightToLeft;
+    sub \uni05B7 by \patah.ganuv ;
+} PatahToPatahGanuv;
+
+# Replace the patah with the furtive patah
+feature ccmp {
+  lookupflag RightToLeft;
+    sub [\uni05B5 \uni05B6 \uni05B4 \uni05D9 \uni05B9 \uniFB4B \uni05BB \uniFB35 ] [\uni05D4  \uni05D7 \uni05E2  ] [\uni05B7 ]' lookup PatahToPatahGanuv;
+    sub [\uni05BC \uni05BF ] [\uni05B5 \uni05B6 \uni05B4 \uni05B9 \uni05BB ] [\uni05D4  \uni05D7 \uni05E2  ] [\uni05B7 ]' lookup PatahToPatahGanuv;
+    sub [\uni05B5 \uni05B6 \uni05B4 \uni05D9 \uni05B9 \uniFB4B \uni05BB \uniFB35 ] [\uni05BD ] [\uni05D4  \uni05D7 \uni05E2 ] [\uni05B7 ]'lookup PatahToPatahGanuv  ;
+    sub [\uni05BC \uni05BF  ] [\uni05B5 \uni05B6 \uni05B4 \uni05B9 \uni05BB ] [\uni05BD ] [\uni05D4  \uni05D7 \uni05E2  ] [\uni05B7 ]'lookup PatahToPatahGanuv  ;
+} ccmp;
+
+lookup PatahGanuvBackToPatah {
+  lookupflag RightToLeft;
+    sub \patah.ganuv by \uni05B7 ;
+} PatahGanuvBackToPatah;
+
+# Revert furtive patah in case where it is not right
+feature ccmp {
+  lookupflag RightToLeft;
+    sub [\patah.ganuv ]'lookup PatahGanuvBackToPatah  [\uni05D3  \uni05E7 \uni05E8  \uni05D0 \uni05D1 \uni05D2 \uni05D4  \uni05D5 \uni05D6 \uni05D7 \uni05D8 \uni05D9 \uni05DB \uni05DC \uni05DD \uni05DE \uni05E0 \uni05E1 \uni05E2 \uni05E4 \uni05E5 \uni05E6 \uni05E9 \uni05EA \uniFB2A 
+	\uniFB2B \uniFB35 \uniFB36 \uniFB39 \uniFB40 \uniFB4B ];
+    sub [\patah.ganuv ]'lookup PatahGanuvBackToPatah  [\uni05BD ] [\uni05D3  \uni05E7 \uni05E8  \uni05D0 
+	 \uni05D1 \uni05D2 \uni05D4  \uni05D5 \uni05D6 \uni05D7 \uni05D8 \uni05D9 \uni05DB 
+	\uni05DC \uni05DD \uni05DE \uni05E0 \uni05E1 
+	\uni05E2 \uni05E4 \uni05E5 \uni05E6 \uni05E9 \uni05EA \uniFB2A 
+	\uniFB2B \uniFB35 \uniFB36 \uniFB39 \uniFB40 \uniFB4B ];
+    sub [\patah.ganuv ]'lookup PatahGanuvBackToPatah  [\uni05BD ] [\uni05BD ] [\uni05D3  \uni05E7 \uni05E8  \uni05D0 
+	 \uni05D1 \uni05D2 \uni05D4  \uni05D5 \uni05D6 \uni05D7 \uni05D8 \uni05D9 \uni05DB 
+	\uni05DC \uni05DD \uni05DE \uni05E0 \uni05E1 
+	\uni05E2 \uni05E4 \uni05E5 \uni05E6 \uni05E9 \uni05EA \uniFB2A 
+	\uniFB2B \uniFB35 \uniFB36 \uniFB39 \uniFB40 \uniFB4B	];
+} ccmp;
+
+# hiriqmem for jerusalaim
+feature ccmp {
+  lookupflag RightToLeft;
+    sub [\uni05B7 \uni05B8] [\uni05B4]' [\uni05DD ]'  by \hiriqmem;
+} ccmp;
+
+# Workaround for dealing with silent alef after holam
+# More elegant would be using GPOS
+feature ccmp {
+  lookupflag RightToLeft;
+    ignore substitute \uni05B9' \uni05D0' @vowels;
+    sub \uni05B9' \uni05D0' by \holamalef;
+} ccmp;
+
+
+feature mark {
+  lookupflag RightToLeft;
+  markClass [\hatafsegolmeteg \hatafpatahmeteg \hatafqamatsmeteg \hiriqmeteg \tseremeteg \segolmeteg \patahmeteg \qamatsmeteg ] <anchor 174 0> @meteg;
+  markClass [\uni05B0 \uni05B4 \uni05BD ] <anchor 35 0> @hbsmall;
+  markClass [\uni05B1 \uni05B2 \uni05B3 ] <anchor 150 0> @hbwide;
+  markClass [\uni05B5 \uni05B6 \uni05B7 \uni05B8 ] <anchor 91 0> @hbmiddle;
+  markClass [\uni05B9 \uni05BA ] <anchor 0 0> @holem;
+  markClass [\patah.ganuv ] <anchor 0 0> @ganuv;
+  markClass [\uni05BB ] <anchor 147 0> @qubuts;
+  markClass [\uni05BC ] <anchor 35 251> @dagesh;
+  pos base [\uni05D0 \uniFB30 ] <anchor 280 0> mark @meteg
+	<anchor 280 0> mark @hbmiddle
+	<anchor 280 0> mark @hbwide
+	<anchor 280 0> mark @hbsmall
+	<anchor 280 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D1 \uniFB31 \uniFB4C ] <anchor 234 0> mark @meteg
+	<anchor 234 0> mark @hbwide
+	<anchor 234 0> mark @hbmiddle
+	<anchor 234 0> mark @hbsmall
+	<anchor 234 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D2 \uniFB32 \gimelrafe ] <anchor 167 0> mark @meteg
+	<anchor 167 0> mark @hbwide
+	<anchor 167 0> mark @hbmiddle
+	<anchor 167 0> mark @hbsmall
+	<anchor 167 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D3 \uniFB33 \daletrafe ] <anchor 219 0> mark @meteg
+	<anchor 274 0> mark @hbwide
+	<anchor 274 0> mark @hbmiddle
+	<anchor 295 0> mark @hbsmall
+	<anchor 274 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D4 \uniFB34 \herafe \uni05D7 ] <anchor 239 0> mark @meteg
+	<anchor 238 0> mark @ganuv
+	<anchor 210 0> mark @hbwide
+	<anchor 238 0> mark @hbmiddle
+	<anchor 238 0> mark @hbsmall
+	<anchor 238 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D5 \uniFB35 ] <anchor 142 0> mark @meteg
+	<anchor 142 0> mark @hbwide
+	<anchor 142 0> mark @hbmiddle
+	<anchor 142 0> mark @hbsmall
+	<anchor 142 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D6 \uniFB36 ] <anchor 144 0> mark @meteg
+	<anchor 144 0> mark @hbwide
+	<anchor 144 0> mark @hbmiddle
+	<anchor 144 0> mark @hbsmall
+	<anchor 144 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D8 \uniFB38 ] <anchor 243 0> mark @meteg
+	<anchor 243 0> mark @hbwide
+	<anchor 243 0> mark @hbmiddle
+	<anchor 243 0> mark @hbsmall
+	<anchor 243 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05D9 \uniFB39 ] <anchor 135 0> mark @meteg
+	<anchor 135 0> mark @hbwide
+	<anchor 135 0> mark @hbmiddle
+	<anchor 145 0> mark @hbsmall
+	<anchor 135 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05DA \uniFB3A ] <anchor 237 0> mark @meteg
+	<anchor 137 0> mark @hbwide
+	<anchor 137 240> mark @hbmiddle
+	<anchor 200 290> mark @hbsmall;
+  pos base [\uni05DB \uniFB3B \uniFB4D ] <anchor 231 0> mark @meteg
+	<anchor 231 0> mark @hbwide
+	<anchor 231 0> mark @hbmiddle
+	<anchor 215 0> mark @hbsmall
+	<anchor 231 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05DC \uniFB3C ] <anchor 238 0> mark @meteg
+	<anchor 230 0> mark @hbwide
+	<anchor 230 0> mark @hbmiddle
+	<anchor 225 0> mark @hbsmall
+	<anchor 238 0> mark @qubuts
+	<anchor -125 0> mark @holem;
+  pos base [\uni05DE \uniFB3E ] <anchor 260 0> mark @meteg
+	<anchor 250 0> mark @hbwide
+	<anchor 250 0> mark @hbmiddle
+	<anchor 260 0> mark @hbsmall
+	<anchor 260 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05DF ] <anchor 27 0> mark @hbmiddle;
+  pos base [\uni05E0 \uniFB40 ] <anchor 223 0> mark @meteg
+	<anchor 158 0> mark @hbwide
+	<anchor 158 0> mark @hbmiddle
+	<anchor 158 0> mark @hbsmall
+	<anchor 158 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05E1 \uniFB41 ] <anchor 255 0> mark @meteg
+	<anchor 255 0> mark @hbwide
+	<anchor 255 0> mark @hbmiddle
+	<anchor 255 0> mark @hbsmall
+	<anchor 255 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05E2 ] <anchor 249 0> mark @meteg
+	<anchor 348 0> mark @ganuv
+	<anchor 230 0> mark @hbwide
+	<anchor 230 0> mark @hbmiddle
+	<anchor 248 0> mark @hbsmall
+	<anchor 248 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05E4 \uniFB44 \uniFB4E ] <anchor 231 0> mark @meteg
+	<anchor 218 0> mark @hbwide
+	<anchor 218 0> mark @hbmiddle
+	<anchor 231 0> mark @hbsmall
+	<anchor 231 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05E6 \uniFB46 ] <anchor 249 9> mark @meteg
+	<anchor 240 0> mark @hbwide
+	<anchor 240 0> mark @hbmiddle
+	<anchor 240 0> mark @hbsmall
+	<anchor 240 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05E7 \uniFB47 ] <anchor 323 0> mark @meteg
+	<anchor 275 0> mark @hbwide
+	<anchor 275 0> mark @hbmiddle
+	<anchor 248 0> mark @hbsmall
+	<anchor 248 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05E8 \uniFB48 ] <anchor 295 0> mark @meteg
+	<anchor 381 0> mark @hbwide
+	<anchor 381 0> mark @hbmiddle
+	<anchor 395 0> mark @hbsmall
+	<anchor 381 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05E9 \uniFB2A \uniFB2B \uniFB49 \uniFB2D \uniFB2C ] <anchor 270 0> mark @meteg
+	<anchor 262 0> mark @hbwide
+	<anchor 262 0> mark @hbmiddle
+	<anchor 306 0> mark @hbsmall
+	<anchor 306 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni05EA \uniFB4A \tavrafe ] <anchor 245 0> mark @meteg
+	<anchor 257 0> mark @hbwide
+	<anchor 257 0> mark @hbmiddle
+	<anchor 257 0> mark @hbsmall
+	<anchor 257 0> mark @qubuts
+	<anchor 0 0> mark @holem;
+  pos base [\uni25CC ] <anchor 260 220> mark @dagesh
+	<anchor 0 0> mark @holem
+	<anchor 262 0> mark @qubuts
+	<anchor 262 0> mark @hbsmall
+	<anchor 262 0> mark @hbmiddle
+	<anchor 262 0> mark @hbwide;
+} mark;

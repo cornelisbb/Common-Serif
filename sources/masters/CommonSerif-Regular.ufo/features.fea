@@ -12250,13 +12250,13 @@ feature ccmp {
 feature mark {
   lookupflag RightToLeft;
   markClass [\hatafsegolmeteg \hatafpatahmeteg \hatafqamatsmeteg \hiriqmeteg \tseremeteg \segolmeteg \patahmeteg \qamatsmeteg ] <anchor 0 0> @meteg;
-  markClass [\uni05B0 \uni05B4 \uni05BD ] <anchor 0 0> @hbsmall;
-  markClass [\uni05B1 \uni05B2 \uni05B3 ] <anchor 0 0> @hbwide;
-  markClass [\uni05B5 \uni05B6 \uni05B7 \uni05B8 ] <anchor 0 0> @hbmiddle;
+  markClass [\uni05B0 \uni05B4 \uni05BD ] <anchor 35 0> @hbsmall;
+  markClass [\uni05B1 \uni05B2 \uni05B3 ] <anchor 150 0> @hbwide;
+  markClass [\uni05B5 \uni05B6 \uni05B7 \uni05B8 ] <anchor 91 0> @hbmiddle;
   markClass [\uni05B9 \uni05BA ] <anchor 0 0> @holem;
   markClass [\patah.ganuv ] <anchor 0 0> @ganuv;
-  markClass [\uni05BB ] <anchor 0 0> @qubuts;
-  markClass [\uni05BC ] <anchor 0 251> @dagesh;
+  markClass [\uni05BB ] <anchor 147 0> @qubuts;
+  markClass [\uni05BC ] <anchor 35 251> @dagesh;
   pos base [\uni05D0 \uniFB30 ] <anchor 240 0> mark @meteg
 	<anchor 240 0> mark @hbmiddle
 	<anchor 240 0> mark @hbwide

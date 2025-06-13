@@ -12243,7 +12243,7 @@ feature ccmp {
 feature ccmp {
   lookupflag RightToLeft;
     ignore substitute \uni05B9' \uni05D0' @vowels;
-    sub \uni05B9' \uni05D0' by \holamalef;
+    sub \uni05B9' \uni05D0 by \holamalef;
 } ccmp;
 
 
@@ -12291,7 +12291,7 @@ feature mark {
   pos base [\uni05D5 \uniFB35 ] <anchor 142 0> mark @meteg
 	<anchor 142 0> mark @hbwide
 	<anchor 142 0> mark @hbmiddle
-	<anchor 142 0> mark @hbsmall
+	<anchor 190 0> mark @hbsmall
 	<anchor 142 0> mark @qubuts
 	<anchor 0 0> mark @holem;
   pos base [\uni05D6 \uniFB36 ] <anchor 144 0> mark @meteg

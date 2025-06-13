@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F6C" format="2">
-  <advance width="903"/>
-  <unicode hex="1F6C"/>
-  <anchor x="538" y="-62" name="ypogegrammeni"/>
-  <outline>
-    <component base="Omega" xOffset="159" yOffset="-2"/>
-    <component base="uni1FCE" xOffset="127.499" yOffset="-19"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.metricsRight</key>
-  <string>=Omega</string>
-  <key>com.fontlab.recipe</key>
-  <string>=Omega@190,-2+uni1FCE@20,480</string>
-  </dict>
-  </lib>
+	<unicode hex="1F6C"/>
+	<advance width="903"/>
+	<outline>
+		<component base="Omega" xOffset="159" yOffset="-2"/>
+		<component base="uni1FCE" xOffset="127.499" yOffset="-19"/>
+	</outline>
+	<anchor name="ypogegrammeni" x="538" y="-62"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.metricsRight</key>
+			<string>=Omega</string>
+			<key>com.fontlab.recipe</key>
+			<string>=Omega@190,-2+uni1FCE@20,480</string>
+		</dict>
+	</lib>
 </glyph>

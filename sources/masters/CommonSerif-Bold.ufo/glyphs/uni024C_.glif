@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni024C" format="2">
-  <advance width="715"/>
-  <unicode hex="024C"/>
-  <outline>
-    <component base="R"/>
-    <contour>
-      <point x="46" y="283" type="curve" smooth="yes"/>
-      <point x="146" y="283" type="line"/>
-      <point x="146" y="325" type="line"/>
-      <point x="54" y="325" type="line" smooth="yes"/>
-      <point x="45" y="325"/>
-      <point x="35" y="310"/>
-      <point x="35" y="300" type="curve" smooth="yes"/>
-      <point x="35" y="294"/>
-      <point x="38" y="283"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=H</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=R</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w715m46,283l146,283l146,325l54,325c45,325 35,310 35,300c35,294 38,283 46,283</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -10 42</string>
-          <string>hstem -2 34</string>
-          <string>hstem 21 -21</string>
-          <string>hstem 283 42</string>
-          <string>hstem 325 288</string>
-          <string>hstem 647 -20</string>
-          <string>vstem 201 140</string>
-          <string>vstem 542 151</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="024C"/>
+	<advance width="715"/>
+	<outline>
+		<component base="R"/>
+		<contour>
+			<point x="46" y="283" type="curve" smooth="yes"/>
+			<point x="146" y="283" type="line"/>
+			<point x="146" y="325" type="line"/>
+			<point x="54" y="325" type="line" smooth="yes"/>
+			<point x="45" y="325"/>
+			<point x="35" y="310"/>
+			<point x="35" y="300" type="curve" smooth="yes"/>
+			<point x="35" y="294"/>
+			<point x="38" y="283"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=H</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=R</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -10 42</string>
+							<string>hstem -2 34</string>
+							<string>hstem 21 -21</string>
+							<string>hstem 283 42</string>
+							<string>hstem 325 288</string>
+							<string>hstem 647 -20</string>
+							<string>vstem 201 140</string>
+							<string>vstem 542 151</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w715m46,283l146,283l146,325l54,325c45,325 35,310 35,300c35,294 38,283 46,283</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

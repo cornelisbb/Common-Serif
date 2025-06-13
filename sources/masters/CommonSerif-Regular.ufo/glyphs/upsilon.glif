@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="upsilon" format="2">
-  <advance width="486"/>
-  <unicode hex="03C5"/>
-  <anchor x="231" y="510" name="t.gr_LC"/>
-  <anchor x="253" y="-60" name="ypogegrammeni"/>
-  <outline>
-    <contour>
-      <point x="446" y="249" type="curve" smooth="yes"/>
-      <point x="446" y="339"/>
-      <point x="417" y="413"/>
-      <point x="370" y="442" type="curve"/>
-      <point x="273" y="422" type="line"/>
-      <point x="273" y="412" type="line"/>
-      <point x="348" y="358"/>
-      <point x="405" y="317"/>
-      <point x="405" y="237" type="curve" smooth="yes"/>
-      <point x="405" y="142"/>
-      <point x="338" y="76"/>
-      <point x="243" y="76" type="curve" smooth="yes"/>
-      <point x="173" y="76"/>
-      <point x="132" y="109"/>
-      <point x="132" y="174" type="curve" smooth="yes"/>
-      <point x="132" y="255"/>
-      <point x="166" y="333"/>
-      <point x="166" y="386" type="curve" smooth="yes"/>
-      <point x="166" y="421"/>
-      <point x="148" y="442"/>
-      <point x="119" y="442" type="curve" smooth="yes"/>
-      <point x="91" y="442"/>
-      <point x="40" y="432"/>
-      <point x="16" y="422" type="curve"/>
-      <point x="14" y="416"/>
-      <point x="16" y="400"/>
-      <point x="18" y="394" type="curve"/>
-      <point x="69" y="390"/>
-      <point x="81" y="361"/>
-      <point x="81" y="327" type="curve" smooth="yes"/>
-      <point x="81" y="163" type="line" smooth="yes"/>
-      <point x="81" y="27"/>
-      <point x="165" y="-12"/>
-      <point x="251" y="-12" type="curve" smooth="yes"/>
-      <point x="376" y="-12"/>
-      <point x="446" y="82"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=o</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>6062cbcd23e174e9316ebbfcce798b62446635fbe58537c6023ddf5e493d94c9edea446bcb420f46f525acbe3d10ca264b1da8fb72a6eee3f412dfbf2503ca4a</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -12 88</string>
-          <string>hstem 442 -20</string>
-          <string>vstem 81 51</string>
-          <string>vstem 81 84</string>
-          <string>vstem 405 41</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="03C5"/>
+	<advance width="486"/>
+	<outline>
+		<contour>
+			<point x="446" y="249" type="curve" smooth="yes"/>
+			<point x="446" y="339"/>
+			<point x="417" y="413"/>
+			<point x="370" y="442" type="curve"/>
+			<point x="273" y="422" type="line"/>
+			<point x="273" y="412" type="line"/>
+			<point x="348" y="358"/>
+			<point x="405" y="317"/>
+			<point x="405" y="237" type="curve" smooth="yes"/>
+			<point x="405" y="142"/>
+			<point x="338" y="76"/>
+			<point x="243" y="76" type="curve" smooth="yes"/>
+			<point x="173" y="76"/>
+			<point x="132" y="109"/>
+			<point x="132" y="174" type="curve" smooth="yes"/>
+			<point x="132" y="255"/>
+			<point x="166" y="333"/>
+			<point x="166" y="386" type="curve" smooth="yes"/>
+			<point x="166" y="421"/>
+			<point x="148" y="442"/>
+			<point x="119" y="442" type="curve" smooth="yes"/>
+			<point x="91" y="442"/>
+			<point x="40" y="432"/>
+			<point x="16" y="422" type="curve"/>
+			<point x="14" y="416"/>
+			<point x="16" y="400"/>
+			<point x="18" y="394" type="curve"/>
+			<point x="69" y="390"/>
+			<point x="81" y="361"/>
+			<point x="81" y="327" type="curve" smooth="yes"/>
+			<point x="81" y="163" type="line" smooth="yes"/>
+			<point x="81" y="27"/>
+			<point x="165" y="-12"/>
+			<point x="251" y="-12" type="curve" smooth="yes"/>
+			<point x="376" y="-12"/>
+			<point x="446" y="82"/>
+		</contour>
+	</outline>
+	<anchor name="t.gr_LC" x="231" y="510"/>
+	<anchor name="ypogegrammeni" x="253" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsRight</key>
+			<string>=o</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 88</string>
+							<string>hstem 442 -20</string>
+							<string>vstem 81 51</string>
+							<string>vstem 81 84</string>
+							<string>vstem 405 41</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>6062cbcd23e174e9316ebbfcce798b62446635fbe58537c6023ddf5e493d94c9edea446bcb420f46f525acbe3d10ca264b1da8fb72a6eee3f412dfbf2503ca4a</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

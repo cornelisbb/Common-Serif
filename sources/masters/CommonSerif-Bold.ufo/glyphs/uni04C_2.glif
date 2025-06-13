@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04C2" format="2">
-  <advance width="797"/>
-  <unicode hex="04C2"/>
-  <outline>
-    <component base="uni0436"/>
-    <component base="uni0306.cyr" xOffset="546"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=uni0436</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=uni0436</string>
-  <key>com.fontlab.recipe</key>
-  <string>uni0436+uni0306.cyr</string>
-  </dict>
-  </lib>
+	<unicode hex="04C2"/>
+	<advance width="797"/>
+	<outline>
+		<component base="uni0436"/>
+		<component base="uni0306.cyr" xOffset="546"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=uni0436</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=uni0436</string>
+			<key>com.fontlab.recipe</key>
+			<string>uni0436+uni0306.cyr</string>
+		</dict>
+	</lib>
 </glyph>

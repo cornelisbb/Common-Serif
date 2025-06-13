@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FC0" format="2">
-  <advance width="421"/>
-  <unicode hex="1FC0"/>
-  <anchor x="218" y="510" name="_t.gr_UC"/>
-  <anchor x="218" y="510" name="_t.gr_LC"/>
-  <outline>
-    <contour>
-      <point x="276" y="556" type="curve" smooth="yes"/>
-      <point x="257" y="556"/>
-      <point x="243" y="566"/>
-      <point x="227" y="577" type="curve" smooth="yes"/>
-      <point x="209" y="590"/>
-      <point x="189" y="603"/>
-      <point x="160" y="603" type="curve" smooth="yes"/>
-      <point x="119" y="603"/>
-      <point x="98" y="570"/>
-      <point x="85" y="515" type="curve"/>
-      <point x="90" y="512"/>
-      <point x="98" y="510"/>
-      <point x="107" y="510" type="curve"/>
-      <point x="118" y="540"/>
-      <point x="132" y="556"/>
-      <point x="153" y="556" type="curve" smooth="yes"/>
-      <point x="172" y="556"/>
-      <point x="189" y="545"/>
-      <point x="207" y="533" type="curve" smooth="yes"/>
-      <point x="225" y="522"/>
-      <point x="243" y="510"/>
-      <point x="264" y="510" type="curve" smooth="yes"/>
-      <point x="307" y="510"/>
-      <point x="333" y="540"/>
-      <point x="345" y="596" type="curve"/>
-      <point x="339" y="601"/>
-      <point x="332" y="603"/>
-      <point x="323" y="603" type="curve"/>
-      <point x="310" y="569"/>
-      <point x="296" y="556"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>a535340bcd29b656453c9427ac6cef13368019d721862d91c2db69cc817b4ea38680ecc4712fe46f411dd5b4540701a3d175829efd73efcb36488f885f04f79d</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 510 46</string>
-          <string>hstem 556 47</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="1FC0"/>
+	<advance width="421"/>
+	<outline>
+		<contour>
+			<point x="276" y="556" type="curve" smooth="yes"/>
+			<point x="257" y="556"/>
+			<point x="243" y="566"/>
+			<point x="227" y="577" type="curve" smooth="yes"/>
+			<point x="209" y="590"/>
+			<point x="189" y="603"/>
+			<point x="160" y="603" type="curve" smooth="yes"/>
+			<point x="119" y="603"/>
+			<point x="98" y="570"/>
+			<point x="85" y="515" type="curve"/>
+			<point x="90" y="512"/>
+			<point x="98" y="510"/>
+			<point x="107" y="510" type="curve"/>
+			<point x="118" y="540"/>
+			<point x="132" y="556"/>
+			<point x="153" y="556" type="curve" smooth="yes"/>
+			<point x="172" y="556"/>
+			<point x="189" y="545"/>
+			<point x="207" y="533" type="curve" smooth="yes"/>
+			<point x="225" y="522"/>
+			<point x="243" y="510"/>
+			<point x="264" y="510" type="curve" smooth="yes"/>
+			<point x="307" y="510"/>
+			<point x="333" y="540"/>
+			<point x="345" y="596" type="curve"/>
+			<point x="339" y="601"/>
+			<point x="332" y="603"/>
+			<point x="323" y="603" type="curve"/>
+			<point x="310" y="569"/>
+			<point x="296" y="556"/>
+		</contour>
+	</outline>
+	<anchor name="_t.gr_UC" x="218" y="510"/>
+	<anchor name="_t.gr_LC" x="218" y="510"/>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 510 46</string>
+							<string>hstem 556 47</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>a535340bcd29b656453c9427ac6cef13368019d721862d91c2db69cc817b4ea38680ecc4712fe46f411dd5b4540701a3d175829efd73efcb36488f885f04f79d</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-  <key>lib</key>
-  <dict>
-    <key>com.fontlab.layer.name</key>
-    <string>public.background</string>
-    <key>com.fontlab.layer.opacity</key>
-    <integer>1</integer>
-    <key>com.fontlab.layer.visible</key>
-    <true/>
-    <key>com.fontlab.layer.locked</key>
-    <false/>
-    <key>com.fontlab.layer.service</key>
-    <true/>
-    <key>com.fontlab.layer.wireframe</key>
-    <true/>
-  </dict>
-</dict>
+	<dict>
+		<key>lib</key>
+		<dict>
+			<key>com.fontlab.layer.locked</key>
+			<false/>
+			<key>com.fontlab.layer.name</key>
+			<string>public.background</string>
+			<key>com.fontlab.layer.opacity</key>
+			<integer>1</integer>
+			<key>com.fontlab.layer.service</key>
+			<true/>
+			<key>com.fontlab.layer.visible</key>
+			<true/>
+			<key>com.fontlab.layer.wireframe</key>
+			<true/>
+			<key>org.unifiedfontobject.normalizer.modTimes</key>
+			<string>version: 0.6.2
+1749803060.4 E_.glif
+1749803060.4 I_.glif
+1749803060.4 O_E_.glif
+1749803060.4 _notdef.glif
+1749803060.4 circlemultiply.glif
+1749803060.4 diamondwhite-misc.glif
+1749803060.4 dotlessi.glif
+1749803060.4 hryvnia.glif
+1749803060.4 iota.glif
+1749803060.4 n.glif
+1749803060.4 newsheqel.glif
+1749803060.4 ordmasculine.glif
+1749803060.4 oslash.glif
+1749803060.4 peseta.glif
+1749803060.4 pi.glif
+1749803060.4 rho.glif
+1749803060.4 uni0180.glif
+1749803060.4 uni0199.glif
+1749803060.4 uni01A_E_.glif
+1749803060.4 uni0265.glif
+1749803060.4 uni026A_.glif
+1749803060.4 uni0271.glif
+1749803060.4 uni027D_.glif
+1749803060.4 uni02A_1.glif
+1749803060.4 uni02A_8.glif
+1749803060.4 uni02A_E_.glif
+1749803060.4 uni0413.glif
+1749803060.4 uni041A_.glif
+1749803060.4 uni0432.loclB_G_R_.glif
+1749803060.4 uni0438.loclB_G_R_.glif
+1749803060.4 uni0446.loclB_G_R_.glif
+1748894921.7 uni0483.glif
+1749803060.4 uni05D_1.glif
+1749803060.4 uni2115.glif
+1749803060.4 uni2619.glif
+1749803060.4 upsilon.glif</string>
+		</dict>
+	</dict>
 </plist>

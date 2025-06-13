@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F22" format="2">
-  <advance width="621"/>
-  <unicode hex="1F22"/>
-  <anchor x="172" y="-60" name="ypogegrammeni"/>
-  <outline>
-    <component base="eta"/>
-    <component base="uni1FCD" xOffset="146" yOffset="10"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>eta+uni1FCD</string>
-  </dict>
-  </lib>
+	<unicode hex="1F22"/>
+	<advance width="621"/>
+	<outline>
+		<component base="eta"/>
+		<component base="uni1FCD" xOffset="146" yOffset="10"/>
+	</outline>
+	<anchor name="ypogegrammeni" x="172" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>eta+uni1FCD</string>
+		</dict>
+	</lib>
 </glyph>

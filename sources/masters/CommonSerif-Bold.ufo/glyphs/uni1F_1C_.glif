@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F1C" format="2">
-  <advance width="898"/>
-  <unicode hex="1F1C"/>
-  <anchor x="641.5" y="10" name="b.ogonek"/>
-  <anchor x="614.5" y="-60" name="b.minus-60"/>
-  <anchor x="647.5" y="0" name="b.cedilla"/>
-  <outline>
-    <component base="Epsilon" xOffset="277.5"/>
-    <component base="uni1FCE" xOffset="117.499" yOffset="-19"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.metricsRight</key>
-  <string>=E</string>
-  <key>com.fontlab.recipe</key>
-  <string>=Epsilon@300,-2+uni1FCE@10,480</string>
-  </dict>
-  </lib>
+	<unicode hex="1F1C"/>
+	<advance width="898"/>
+	<outline>
+		<component base="Epsilon" xOffset="277.5"/>
+		<component base="uni1FCE" xOffset="117.499" yOffset="-19"/>
+	</outline>
+	<anchor name="b.ogonek" x="641.5" y="10"/>
+	<anchor name="b.minus-60" x="614.5" y="-60"/>
+	<anchor name="b.cedilla" x="647.5" y="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.metricsRight</key>
+			<string>=E</string>
+			<key>com.fontlab.recipe</key>
+			<string>=Epsilon@300,-2+uni1FCE@10,480</string>
+		</dict>
+	</lib>
 </glyph>

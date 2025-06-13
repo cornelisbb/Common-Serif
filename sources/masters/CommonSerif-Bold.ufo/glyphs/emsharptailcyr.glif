@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emsharptailcyr" format="2">
-  <advance width="755"/>
-  <unicode hex="04CE"/>
+	<unicode hex="04CE"/>
+	<advance width="755"/>
 </glyph>

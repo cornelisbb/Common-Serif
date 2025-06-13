@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04A6" format="2">
-  <advance width="1048"/>
-  <unicode hex="04A6"/>
-  <outline>
-    <component base="uni041F"/>
-    <contour>
-      <point x="1023" y="96" type="curve" smooth="yes"/>
-      <point x="1023" y="331"/>
-      <point x="806" y="377"/>
-      <point x="649" y="377" type="curve"/>
-      <point x="649" y="339" type="line"/>
-      <point x="785" y="339"/>
-      <point x="901" y="286"/>
-      <point x="901" y="85" type="curve" smooth="yes"/>
-      <point x="901" y="-78"/>
-      <point x="844" y="-134"/>
-      <point x="781" y="-134" type="curve" smooth="yes"/>
-      <point x="719" y="-134"/>
-      <point x="674" y="-97"/>
-      <point x="674" y="-34" type="curve"/>
-      <point x="606" y="-34" type="line"/>
-      <point x="606" y="-192" type="line"/>
-      <point x="677" y="-192" type="line"/>
-      <point x="677" y="-161" type="line" smooth="yes"/>
-      <point x="677" y="-152"/>
-      <point x="681" y="-147"/>
-      <point x="688" y="-147" type="curve" smooth="yes"/>
-      <point x="705" y="-147"/>
-      <point x="727" y="-170"/>
-      <point x="789" y="-170" type="curve" smooth="yes"/>
-      <point x="926" y="-170"/>
-      <point x="1023" y="-51"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=H</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=uni0494</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>7725775631fa1ff1234290616017583c2e62ccd880553133bd5534da04973db6095309c34bf98968fac290ac64340469f6ff4b953c093e19f744f66d97bd15c3</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -171 -21</string>
-          <string>hstem -170 781</string>
-          <string>hstem -170 205</string>
-          <string>hstem 22 -21</string>
-          <string>hstem 339 187</string>
-          <string>hstem 598 45</string>
-          <string>hstem 611 34</string>
-          <string>vstem 110 123</string>
-          <string>vstem 480 124</string>
-          <string>vstem 543 140</string>
-          <string>vstem 604 234</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="04A6"/>
+	<advance width="1048"/>
+	<outline>
+		<component base="uni041F"/>
+		<contour>
+			<point x="1023" y="96" type="curve" smooth="yes"/>
+			<point x="1023" y="331"/>
+			<point x="806" y="377"/>
+			<point x="649" y="377" type="curve"/>
+			<point x="649" y="339" type="line"/>
+			<point x="785" y="339"/>
+			<point x="901" y="286"/>
+			<point x="901" y="85" type="curve" smooth="yes"/>
+			<point x="901" y="-78"/>
+			<point x="844" y="-134"/>
+			<point x="781" y="-134" type="curve" smooth="yes"/>
+			<point x="719" y="-134"/>
+			<point x="674" y="-97"/>
+			<point x="674" y="-34" type="curve"/>
+			<point x="606" y="-34" type="line"/>
+			<point x="606" y="-192" type="line"/>
+			<point x="677" y="-192" type="line"/>
+			<point x="677" y="-161" type="line" smooth="yes"/>
+			<point x="677" y="-152"/>
+			<point x="681" y="-147"/>
+			<point x="688" y="-147" type="curve" smooth="yes"/>
+			<point x="705" y="-147"/>
+			<point x="727" y="-170"/>
+			<point x="789" y="-170" type="curve" smooth="yes"/>
+			<point x="926" y="-170"/>
+			<point x="1023" y="-51"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=H</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=uni0494</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -171 -21</string>
+							<string>hstem -170 781</string>
+							<string>hstem -170 205</string>
+							<string>hstem 22 -21</string>
+							<string>hstem 339 187</string>
+							<string>hstem 598 45</string>
+							<string>hstem 611 34</string>
+							<string>vstem 110 123</string>
+							<string>vstem 480 124</string>
+							<string>vstem 543 140</string>
+							<string>vstem 604 234</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>7725775631fa1ff1234290616017583c2e62ccd880553133bd5534da04973db6095309c34bf98968fac290ac64340469f6ff4b953c093e19f744f66d97bd15c3</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01E2" format="2">
-  <advance width="956"/>
-  <unicode hex="01E2"/>
-  <outline>
-    <component base="AE"/>
-    <component base="uni0304" xOffset="717" yOffset="240"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>AE+uni0304</string>
-  </dict>
-  </lib>
+	<unicode hex="01E2"/>
+	<advance width="956"/>
+	<outline>
+		<component base="AE"/>
+		<component base="uni0304" xOffset="717" yOffset="240"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>AE+uni0304</string>
+		</dict>
+	</lib>
 </glyph>

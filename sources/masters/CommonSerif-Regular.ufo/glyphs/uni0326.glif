@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0326" format="2">
-  <unicode hex="0326"/>
-  <anchor x="-251" y="-60" name="_b.minus-60"/>
-  <outline>
-    <contour>
-      <point x="-250" y="-60" type="curve" smooth="yes"/>
-      <point x="-279" y="-60"/>
-      <point x="-300" y="-79"/>
-      <point x="-300" y="-103" type="curve" smooth="yes"/>
-      <point x="-300" y="-130"/>
-      <point x="-275" y="-139"/>
-      <point x="-258" y="-142" type="curve"/>
-      <point x="-240" y="-144"/>
-      <point x="-227" y="-148"/>
-      <point x="-227" y="-168" type="curve" smooth="yes"/>
-      <point x="-227" y="-186"/>
-      <point x="-253" y="-210"/>
-      <point x="-302" y="-221" type="curve"/>
-      <point x="-302" y="-230"/>
-      <point x="-300" y="-239"/>
-      <point x="-294" y="-245" type="curve"/>
-      <point x="-237" y="-236"/>
-      <point x="-188" y="-206"/>
-      <point x="-188" y="-146" type="curve" smooth="yes"/>
-      <point x="-188" y="-94"/>
-      <point x="-212" y="-60"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>4f08fa282869c9482045e061671d922b52ed08e0dd4d8cc6d69c74d013294c5c179a012363296b9babab1a82cd5a988f6a7465cbb2a4f098125d75acb7e6eacb</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -223 -21</string>
-          <string>hstem -59 -20</string>
-          <string>vstem -300 112</string>
-          <string>vstem -227 39</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="0326"/>
+	<outline>
+		<contour>
+			<point x="-250" y="-60" type="curve" smooth="yes"/>
+			<point x="-279" y="-60"/>
+			<point x="-300" y="-79"/>
+			<point x="-300" y="-103" type="curve" smooth="yes"/>
+			<point x="-300" y="-130"/>
+			<point x="-275" y="-139"/>
+			<point x="-258" y="-142" type="curve"/>
+			<point x="-240" y="-144"/>
+			<point x="-227" y="-148"/>
+			<point x="-227" y="-168" type="curve" smooth="yes"/>
+			<point x="-227" y="-186"/>
+			<point x="-253" y="-210"/>
+			<point x="-302" y="-221" type="curve"/>
+			<point x="-302" y="-230"/>
+			<point x="-300" y="-239"/>
+			<point x="-294" y="-245" type="curve"/>
+			<point x="-237" y="-236"/>
+			<point x="-188" y="-206"/>
+			<point x="-188" y="-146" type="curve" smooth="yes"/>
+			<point x="-188" y="-94"/>
+			<point x="-212" y="-60"/>
+		</contour>
+	</outline>
+	<anchor name="_b.minus-60" x="-251" y="-60"/>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -223 -21</string>
+							<string>hstem -59 -20</string>
+							<string>vstem -300 112</string>
+							<string>vstem -227 39</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>4f08fa282869c9482045e061671d922b52ed08e0dd4d8cc6d69c74d013294c5c179a012363296b9babab1a82cd5a988f6a7465cbb2a4f098125d75acb7e6eacb</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

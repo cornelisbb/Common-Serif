@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni047D" format="2">
-  <advance width="705"/>
-  <unicode hex="047D"/>
-  <outline>
-    <component base="uni0461"/>
-    <contour>
-      <point x="254" y="622" type="curve" smooth="yes"/>
-      <point x="198" y="622"/>
-      <point x="162" y="589"/>
-      <point x="162" y="538" type="curve" smooth="yes"/>
-      <point x="162" y="504"/>
-      <point x="185" y="480"/>
-      <point x="219" y="480" type="curve" smooth="yes"/>
-      <point x="250" y="480"/>
-      <point x="277" y="499"/>
-      <point x="277" y="524" type="curve" smooth="yes"/>
-      <point x="277" y="540"/>
-      <point x="263" y="548"/>
-      <point x="263" y="563" type="curve" smooth="yes"/>
-      <point x="263" y="574"/>
-      <point x="269" y="591"/>
-      <point x="288" y="591" type="curve" smooth="yes"/>
-      <point x="346" y="591"/>
-      <point x="414" y="541"/>
-      <point x="466" y="541" type="curve" smooth="yes"/>
-      <point x="512" y="541"/>
-      <point x="542" y="570"/>
-      <point x="542" y="615" type="curve" smooth="yes"/>
-      <point x="542" y="657"/>
-      <point x="516" y="686"/>
-      <point x="479" y="686" type="curve" smooth="yes"/>
-      <point x="444" y="686"/>
-      <point x="422" y="670"/>
-      <point x="422" y="643" type="curve" smooth="yes"/>
-      <point x="422" y="613"/>
-      <point x="452" y="617"/>
-      <point x="452" y="593" type="curve" smooth="yes"/>
-      <point x="452" y="581"/>
-      <point x="440" y="572"/>
-      <point x="434" y="572" type="curve" smooth="yes"/>
-      <point x="392" y="572"/>
-      <point x="311" y="622"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=o</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=o</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>44e637f2fe9002e51de00bb13fcd6678fa379d0286343d40b6f0061d2fbe546fd0fce70baa627a8bc88829323194df9dc8383795bd1d7d2e35ec65c6b85d52bf</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -12 28</string>
-          <string>hstem 192 250</string>
-          <string>hstem 339 103</string>
-          <string>hstem 414 28</string>
-          <string>hstem 480 122</string>
-          <string>hstem 521 125</string>
-          <string>hstem 542 -21</string>
-          <string>hstem 602 -21</string>
-          <string>vstem -3 374</string>
-          <string>vstem 31 79</string>
-          <string>vstem 192 50</string>
-          <string>vstem 192 66</string>
-          <string>vstem 226 68</string>
-          <string>vstem 373 69</string>
-          <string>vstem 427 73</string>
-          <string>vstem 461 39</string>
-          <string>vstem 557 79</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="047D"/>
+	<advance width="705"/>
+	<outline>
+		<component base="uni0461"/>
+		<contour>
+			<point x="254" y="622" type="curve" smooth="yes"/>
+			<point x="198" y="622"/>
+			<point x="162" y="589"/>
+			<point x="162" y="538" type="curve" smooth="yes"/>
+			<point x="162" y="504"/>
+			<point x="185" y="480"/>
+			<point x="219" y="480" type="curve" smooth="yes"/>
+			<point x="250" y="480"/>
+			<point x="277" y="499"/>
+			<point x="277" y="524" type="curve" smooth="yes"/>
+			<point x="277" y="540"/>
+			<point x="263" y="548"/>
+			<point x="263" y="563" type="curve" smooth="yes"/>
+			<point x="263" y="574"/>
+			<point x="269" y="591"/>
+			<point x="288" y="591" type="curve" smooth="yes"/>
+			<point x="346" y="591"/>
+			<point x="414" y="541"/>
+			<point x="466" y="541" type="curve" smooth="yes"/>
+			<point x="512" y="541"/>
+			<point x="542" y="570"/>
+			<point x="542" y="615" type="curve" smooth="yes"/>
+			<point x="542" y="657"/>
+			<point x="516" y="686"/>
+			<point x="479" y="686" type="curve" smooth="yes"/>
+			<point x="444" y="686"/>
+			<point x="422" y="670"/>
+			<point x="422" y="643" type="curve" smooth="yes"/>
+			<point x="422" y="613"/>
+			<point x="452" y="617"/>
+			<point x="452" y="593" type="curve" smooth="yes"/>
+			<point x="452" y="581"/>
+			<point x="440" y="572"/>
+			<point x="434" y="572" type="curve" smooth="yes"/>
+			<point x="392" y="572"/>
+			<point x="311" y="622"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=o</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=o</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -12 28</string>
+							<string>hstem 192 250</string>
+							<string>hstem 339 103</string>
+							<string>hstem 414 28</string>
+							<string>hstem 480 122</string>
+							<string>hstem 521 125</string>
+							<string>hstem 542 -21</string>
+							<string>hstem 602 -21</string>
+							<string>vstem -3 374</string>
+							<string>vstem 31 79</string>
+							<string>vstem 192 50</string>
+							<string>vstem 192 66</string>
+							<string>vstem 226 68</string>
+							<string>vstem 373 69</string>
+							<string>vstem 427 73</string>
+							<string>vstem 461 39</string>
+							<string>vstem 557 79</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>44e637f2fe9002e51de00bb13fcd6678fa379d0286343d40b6f0061d2fbe546fd0fce70baa627a8bc88829323194df9dc8383795bd1d7d2e35ec65c6b85d52bf</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

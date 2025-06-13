@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F42" format="2">
-  <advance width="537"/>
-  <unicode hex="1F42"/>
-  <anchor x="354" y="10" name="b.ogonek"/>
-  <anchor x="262" y="-60" name="b.minus-60"/>
-  <anchor x="262" y="-60" name="ypogegrammeni"/>
-  <outline>
-    <component base="omicron"/>
-    <component base="uni1FCD" xOffset="83" yOffset="10"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>omicron+uni1FCD</string>
-  </dict>
-  </lib>
+	<unicode hex="1F42"/>
+	<advance width="537"/>
+	<outline>
+		<component base="omicron"/>
+		<component base="uni1FCD" xOffset="83" yOffset="10"/>
+	</outline>
+	<anchor name="b.ogonek" x="354" y="10"/>
+	<anchor name="b.minus-60" x="262" y="-60"/>
+	<anchor name="ypogegrammeni" x="262" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>omicron+uni1FCD</string>
+		</dict>
+	</lib>
 </glyph>

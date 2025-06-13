@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01ED" format="2">
-  <advance width="537"/>
-  <unicode hex="01ED"/>
-  <anchor x="258" y="-60" name="b.minus-60"/>
-  <anchor x="387" y="403" name="t.horn"/>
-  <outline>
-    <component base="uni01EB"/>
-    <component base="uni0304" xOffset="449"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>uni01EB+uni0304</string>
-  </dict>
-  </lib>
+	<unicode hex="01ED"/>
+	<advance width="537"/>
+	<outline>
+		<component base="uni01EB"/>
+		<component base="uni0304" xOffset="449"/>
+	</outline>
+	<anchor name="b.minus-60" x="258" y="-60"/>
+	<anchor name="t.horn" x="387" y="403"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>uni01EB+uni0304</string>
+		</dict>
+	</lib>
 </glyph>

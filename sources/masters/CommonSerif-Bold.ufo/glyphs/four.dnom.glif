@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four.dnom" format="2">
-  <advance width="340"/>
-  <outline>
-    <component base="uni2074" yOffset="-464"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=uni2074</string>
-  <key>com.fontlab.recipe</key>
-  <string>uni2074</string>
-  </dict>
-  </lib>
+	<advance width="340"/>
+	<outline>
+		<component base="uni2074" yOffset="-464"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsRight</key>
+			<string>=uni2074</string>
+			<key>com.fontlab.recipe</key>
+			<string>uni2074</string>
+		</dict>
+	</lib>
 </glyph>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hatafsegolmeteg" format="2">
-  <advance width="0"/>
-  <outline>
-    <component base="uni05BD" xOffset="190"/>
-    <component base="uni05B0" xOffset="278"/>
-    <component base="uni05B6"/>
-  </outline>
+	<outline>
+		<component base="uni05BD" xOffset="190"/>
+		<component base="uni05B0" xOffset="278"/>
+		<component base="uni05B6"/>
+	</outline>
 </glyph>

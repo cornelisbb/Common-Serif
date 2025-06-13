@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aacute.sc" format="2">
-  <advance width="633"/>
-  <outline>
-    <component base="a.sc"/>
-    <component base="uni0301" xOffset="486.5"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>a.sc+uni0301</string>
-  </dict>
-  </lib>
+	<advance width="633"/>
+	<outline>
+		<component base="a.sc"/>
+		<component base="uni0301" xOffset="486.5"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>a.sc+uni0301</string>
+		</dict>
+	</lib>
 </glyph>

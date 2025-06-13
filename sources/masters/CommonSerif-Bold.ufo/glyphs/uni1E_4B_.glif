@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E4B" format="2">
-  <advance width="615"/>
-  <unicode hex="1E4B"/>
-  <anchor x="232" y="500" name="top"/>
-  <anchor x="-2" y="652" name="apostrophe"/>
-  <outline>
-    <component base="n"/>
-    <component base="uni032D" xOffset="498"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>n+uni032D</string>
-  </dict>
-  </lib>
+	<unicode hex="1E4B"/>
+	<advance width="615"/>
+	<outline>
+		<component base="n"/>
+		<component base="uni032D" xOffset="498"/>
+	</outline>
+	<anchor name="top" x="232" y="500"/>
+	<anchor name="apostrophe" x="-2" y="652"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>n+uni032D</string>
+		</dict>
+	</lib>
 </glyph>

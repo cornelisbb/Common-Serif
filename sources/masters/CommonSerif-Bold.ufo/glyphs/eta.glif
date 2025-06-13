@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eta" format="2">
-  <advance width="621"/>
-  <unicode hex="03B7"/>
-  <anchor x="316" y="510" name="t.gr_LC"/>
-  <anchor x="172" y="-60" name="ypogegrammeni"/>
-  <outline>
-    <contour>
-      <point x="89" y="-20" type="line"/>
-      <point x="99" y="-30" type="line"/>
-      <point x="238" y="0" type="line"/>
-      <point x="227" y="326" type="line"/>
-      <point x="227" y="366" type="line" smooth="yes"/>
-      <point x="227" y="409"/>
-      <point x="203" y="442"/>
-      <point x="172" y="442" type="curve" smooth="yes"/>
-      <point x="135" y="442"/>
-      <point x="90" y="431"/>
-      <point x="32" y="411" type="curve"/>
-      <point x="30" y="401"/>
-      <point x="32" y="384"/>
-      <point x="34" y="379" type="curve"/>
-      <point x="89" y="374"/>
-      <point x="99" y="366"/>
-      <point x="99" y="309" type="curve" smooth="yes"/>
-      <point x="99" y="138" type="line"/>
-    </contour>
-    <contour>
-      <point x="215" y="316" type="line"/>
-      <point x="253" y="348"/>
-      <point x="303" y="368"/>
-      <point x="341" y="368" type="curve" smooth="yes"/>
-      <point x="384" y="368"/>
-      <point x="396" y="329"/>
-      <point x="396" y="267" type="curve"/>
-      <point x="378" y="-198" type="line"/>
-      <point x="396" y="-218" type="line"/>
-      <point x="536" y="-188" type="line"/>
-      <point x="526" y="284" type="line"/>
-      <point x="526" y="393"/>
-      <point x="480" y="445"/>
-      <point x="409" y="445" type="curve" smooth="yes"/>
-      <point x="339" y="445"/>
-      <point x="268" y="399"/>
-      <point x="216" y="357" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>75657d1d3559f6fb6145af0c977e141458c1a3e2782311c97246e60cbcf5b2b9c386d101dc39a200bee61f001a4b679689b5f0214108fbf513d4676c70113b1c</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -197 -21</string>
-          <string>hstem 368 77</string>
-          <string>hstem 442 -20</string>
-          <string>vstem 94 138</string>
-          <string>vstem 99 133</string>
-          <string>vstem 387 144</string>
-          <string>vstem 396 130</string>
-          <string>vstem 396 135</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="03B7"/>
+	<advance width="621"/>
+	<outline>
+		<contour>
+			<point x="89" y="-20" type="line"/>
+			<point x="99" y="-30" type="line"/>
+			<point x="238" y="0" type="line"/>
+			<point x="227" y="326" type="line"/>
+			<point x="227" y="366" type="line" smooth="yes"/>
+			<point x="227" y="409"/>
+			<point x="203" y="442"/>
+			<point x="172" y="442" type="curve" smooth="yes"/>
+			<point x="135" y="442"/>
+			<point x="90" y="431"/>
+			<point x="32" y="411" type="curve"/>
+			<point x="30" y="401"/>
+			<point x="32" y="384"/>
+			<point x="34" y="379" type="curve"/>
+			<point x="89" y="374"/>
+			<point x="99" y="366"/>
+			<point x="99" y="309" type="curve" smooth="yes"/>
+			<point x="99" y="138" type="line"/>
+		</contour>
+		<contour>
+			<point x="215" y="316" type="line"/>
+			<point x="253" y="348"/>
+			<point x="303" y="368"/>
+			<point x="341" y="368" type="curve" smooth="yes"/>
+			<point x="384" y="368"/>
+			<point x="396" y="329"/>
+			<point x="396" y="267" type="curve"/>
+			<point x="378" y="-198" type="line"/>
+			<point x="396" y="-218" type="line"/>
+			<point x="536" y="-188" type="line"/>
+			<point x="526" y="284" type="line"/>
+			<point x="526" y="393"/>
+			<point x="480" y="445"/>
+			<point x="409" y="445" type="curve" smooth="yes"/>
+			<point x="339" y="445"/>
+			<point x="268" y="399"/>
+			<point x="216" y="357" type="curve"/>
+		</contour>
+	</outline>
+	<anchor name="t.gr_LC" x="316" y="510"/>
+	<anchor name="ypogegrammeni" x="172" y="-60"/>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -197 -21</string>
+							<string>hstem 368 77</string>
+							<string>hstem 442 -20</string>
+							<string>vstem 94 138</string>
+							<string>vstem 99 133</string>
+							<string>vstem 387 144</string>
+							<string>vstem 396 130</string>
+							<string>vstem 396 135</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>75657d1d3559f6fb6145af0c977e141458c1a3e2782311c97246e60cbcf5b2b9c386d101dc39a200bee61f001a4b679689b5f0214108fbf513d4676c70113b1c</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

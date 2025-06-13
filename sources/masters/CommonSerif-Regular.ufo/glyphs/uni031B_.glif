@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni031B" format="2">
-  <unicode hex="031B"/>
-  <anchor x="-46" y="332" name="_t.horn"/>
-  <outline>
-    <contour>
-      <point x="-16" y="335" type="line" smooth="yes"/>
-      <point x="34" y="340"/>
-      <point x="68" y="368"/>
-      <point x="68" y="423" type="curve" smooth="yes"/>
-      <point x="68" y="474"/>
-      <point x="41" y="508"/>
-      <point x="0" y="508" type="curve" smooth="yes"/>
-      <point x="-25" y="508"/>
-      <point x="-42" y="489"/>
-      <point x="-42" y="462" type="curve" smooth="yes"/>
-      <point x="-42" y="403"/>
-      <point x="34" y="443"/>
-      <point x="34" y="402" type="curve" smooth="yes"/>
-      <point x="34" y="381"/>
-      <point x="13" y="374"/>
-      <point x="-18" y="371" type="curve" smooth="yes"/>
-      <point x="-46" y="368" type="line"/>
-      <point x="-46" y="332" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.markColor</key>
-  <string>1,0.6,0.6,1</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>5edcaf4a7bdc4094697ed61e2aef081832cc49465b4322e170c3ab7c16aa24b5eb4b2cd775c99fd3e7ae6fb01020efdd941a282f8fbcf1fbc9bd1a55b31f0e81</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 332 171</string>
-          <string>hstem 418 85</string>
-          <string>vstem -45 110</string>
-          <string>vstem 29 35</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="031B"/>
+	<outline>
+		<contour>
+			<point x="-16" y="335" type="line" smooth="yes"/>
+			<point x="34" y="340"/>
+			<point x="68" y="368"/>
+			<point x="68" y="423" type="curve" smooth="yes"/>
+			<point x="68" y="474"/>
+			<point x="41" y="508"/>
+			<point x="0" y="508" type="curve" smooth="yes"/>
+			<point x="-25" y="508"/>
+			<point x="-42" y="489"/>
+			<point x="-42" y="462" type="curve" smooth="yes"/>
+			<point x="-42" y="403"/>
+			<point x="34" y="443"/>
+			<point x="34" y="402" type="curve" smooth="yes"/>
+			<point x="34" y="381"/>
+			<point x="13" y="374"/>
+			<point x="-18" y="371" type="curve" smooth="yes"/>
+			<point x="-46" y="368" type="line"/>
+			<point x="-46" y="332" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_t.horn" x="-46" y="332"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>1,0.6,0.6,1</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 332 171</string>
+							<string>hstem 418 85</string>
+							<string>vstem -45 110</string>
+							<string>vstem 29 35</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>5edcaf4a7bdc4094697ed61e2aef081832cc49465b4322e170c3ab7c16aa24b5eb4b2cd775c99fd3e7ae6fb01020efdd941a282f8fbcf1fbc9bd1a55b31f0e81</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1FCB" format="2">
-  <advance width="953"/>
-  <unicode hex="1FCB"/>
-  <anchor x="550.5" y="-60" name="b.minus-60"/>
-  <anchor x="321.5" y="10" name="b.cedilla"/>
-  <anchor x="551.5" y="-60" name="ypogegrammeni"/>
-  <outline>
-    <component base="Etatonos"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.metricsRight</key>
-  <string>=H</string>
-  <key>com.fontlab.recipe</key>
-  <string>Etatonos</string>
-  </dict>
-  </lib>
+	<unicode hex="1FCB"/>
+	<advance width="953"/>
+	<outline>
+		<component base="Etatonos"/>
+	</outline>
+	<anchor name="b.minus-60" x="550.5" y="-60"/>
+	<anchor name="b.cedilla" x="321.5" y="10"/>
+	<anchor name="ypogegrammeni" x="551.5" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.metricsRight</key>
+			<string>=H</string>
+			<key>com.fontlab.recipe</key>
+			<string>Etatonos</string>
+		</dict>
+	</lib>
 </glyph>

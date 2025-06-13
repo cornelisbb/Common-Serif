@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilontonos" format="2">
-  <advance width="758"/>
-  <unicode hex="0388"/>
-  <anchor x="501.5" y="10" name="b.ogonek"/>
-  <anchor x="474.5" y="-60" name="b.minus-60"/>
-  <anchor x="507.5" y="0" name="b.cedilla"/>
-  <outline>
-    <component base="Epsilon" xOffset="137.5"/>
-    <component base="tonos" xOffset="-20" yOffset="-20"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.metricsRight</key>
-  <string>=E</string>
-  <key>com.fontlab.recipe</key>
-  <string>=Epsilon@160,-2+tonos@10,480</string>
-  </dict>
-  </lib>
+	<unicode hex="0388"/>
+	<advance width="758"/>
+	<outline>
+		<component base="Epsilon" xOffset="137.5"/>
+		<component base="tonos" xOffset="-20" yOffset="-20"/>
+	</outline>
+	<anchor name="b.ogonek" x="501.5" y="10"/>
+	<anchor name="b.minus-60" x="474.5" y="-60"/>
+	<anchor name="b.cedilla" x="507.5" y="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.metricsRight</key>
+			<string>=E</string>
+			<key>com.fontlab.recipe</key>
+			<string>=Epsilon@160,-2+tonos@10,480</string>
+		</dict>
+	</lib>
 </glyph>

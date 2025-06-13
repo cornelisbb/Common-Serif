@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="2">
-  <advance width="264"/>
-  <unicode hex="0142"/>
-  <outline>
-    <component base="l" xOffset="8"/>
-    <contour>
-      <point x="23" y="270" type="curve"/>
-      <point x="108" y="320" type="line"/>
-      <point x="108" y="359" type="line"/>
-      <point x="6" y="299" type="line"/>
-      <point x="7" y="289"/>
-      <point x="12" y="280"/>
-    </contour>
-    <contour>
-      <point x="161" y="350" type="line"/>
-      <point x="260" y="408" type="line"/>
-      <point x="259" y="418"/>
-      <point x="254" y="428"/>
-      <point x="243" y="438" type="curve"/>
-      <point x="161" y="390" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w264m23,270l108,320l108,359l6,299c7,289 12,280 23,270m161,350l260,408c259,418 254,428 243,438l161,390</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -2 33</string>
-          <string>hstem 21 -21</string>
-          <string>hstem 438 -20</string>
-          <string>hstem 641 28</string>
-          <string>hstem 698 -20</string>
-          <string>vstem 110 80</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="0142"/>
+	<advance width="264"/>
+	<outline>
+		<component base="l" xOffset="8"/>
+		<contour>
+			<point x="23" y="270" type="curve"/>
+			<point x="108" y="320" type="line"/>
+			<point x="108" y="359" type="line"/>
+			<point x="6" y="299" type="line"/>
+			<point x="7" y="289"/>
+			<point x="12" y="280"/>
+		</contour>
+		<contour>
+			<point x="161" y="350" type="line"/>
+			<point x="260" y="408" type="line"/>
+			<point x="259" y="418"/>
+			<point x="254" y="428"/>
+			<point x="243" y="438" type="curve"/>
+			<point x="161" y="390" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -2 33</string>
+							<string>hstem 21 -21</string>
+							<string>hstem 438 -20</string>
+							<string>hstem 641 28</string>
+							<string>hstem 698 -20</string>
+							<string>vstem 110 80</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w264m23,270l108,320l108,359l6,299c7,289 12,280 23,270m161,350l260,408c259,418 254,428 243,438l161,390</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

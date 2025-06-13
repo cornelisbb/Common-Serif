@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="patahmeteg" format="2">
-  <advance width="0"/>
-  <outline>
-    <component base="uni05BD" xOffset="48"/>
-    <component base="uni05B7" xOffset="133"/>
-  </outline>
+	<outline>
+		<component base="uni05BD" xOffset="48"/>
+		<component base="uni05B7" xOffset="133"/>
+	</outline>
 </glyph>

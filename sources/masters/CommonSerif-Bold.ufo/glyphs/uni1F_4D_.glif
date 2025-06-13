@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F4D" format="2">
-  <advance width="894"/>
-  <unicode hex="1F4D"/>
-  <anchor x="566" y="10" name="b.ogonek"/>
-  <anchor x="516" y="-60" name="b.minus-60"/>
-  <anchor x="688" y="613" name="t.horn"/>
-  <outline>
-    <component base="Omicron" xOffset="162"/>
-    <component base="uni1FDE" xOffset="128" yOffset="-20"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.metricsRight</key>
-  <string>=O</string>
-  <key>com.fontlab.recipe</key>
-  <string>=Omicron@200,-10+uni1FDE@10,480</string>
-  </dict>
-  </lib>
+	<unicode hex="1F4D"/>
+	<advance width="894"/>
+	<outline>
+		<component base="Omicron" xOffset="162"/>
+		<component base="uni1FDE" xOffset="128" yOffset="-20"/>
+	</outline>
+	<anchor name="b.ogonek" x="566" y="10"/>
+	<anchor name="b.minus-60" x="516" y="-60"/>
+	<anchor name="t.horn" x="688" y="613"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.metricsRight</key>
+			<string>=O</string>
+			<key>com.fontlab.recipe</key>
+			<string>=Omicron@200,-10+uni1FDE@10,480</string>
+		</dict>
+	</lib>
 </glyph>

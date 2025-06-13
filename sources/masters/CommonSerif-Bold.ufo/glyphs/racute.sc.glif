@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="racute.sc" format="2">
-  <advance width="577"/>
-  <outline>
-    <component base="r.sc"/>
-    <component base="uni0301" xOffset="458.5"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>r.sc+uni0301</string>
-  </dict>
-  </lib>
+	<advance width="577"/>
+	<outline>
+		<component base="r.sc"/>
+		<component base="uni0301" xOffset="458.5"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>r.sc+uni0301</string>
+		</dict>
+	</lib>
 </glyph>

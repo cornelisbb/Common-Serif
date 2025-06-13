@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ibreve" format="2">
-  <advance width="312"/>
-  <unicode hex="012D"/>
-  <anchor x="136" y="500" name="top"/>
-  <anchor x="178" y="-60" name="b.minus-60"/>
-  <outline>
-    <component base="dotlessi"/>
-    <component base="breve" xOffset="-22"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>dotlessi+breve</string>
-  </dict>
-  </lib>
+	<unicode hex="012D"/>
+	<advance width="312"/>
+	<outline>
+		<component base="dotlessi"/>
+		<component base="breve" xOffset="-22"/>
+	</outline>
+	<anchor name="top" x="136" y="500"/>
+	<anchor name="b.minus-60" x="178" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>dotlessi+breve</string>
+		</dict>
+	</lib>
 </glyph>

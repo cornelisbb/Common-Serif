@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Chi" format="2">
-  <advance width="718"/>
-  <unicode hex="03A7"/>
-  <anchor x="354" y="740" name="top"/>
-  <anchor x="352" y="-60" name="b.minus-60"/>
-  <outline>
-    <component base="X"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>X</string>
-  </dict>
-  </lib>
+	<unicode hex="03A7"/>
+	<advance width="718"/>
+	<outline>
+		<component base="X"/>
+	</outline>
+	<anchor name="top" x="354" y="740"/>
+	<anchor name="b.minus-60" x="352" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>X</string>
+		</dict>
+	</lib>
 </glyph>

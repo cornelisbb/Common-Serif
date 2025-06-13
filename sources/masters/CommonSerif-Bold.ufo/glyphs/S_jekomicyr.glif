@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Sjekomicyr" format="2">
-  <advance width="760"/>
-  <unicode hex="050C"/>
+	<unicode hex="050C"/>
+	<advance width="760"/>
 </glyph>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="h032E.sc" format="2">
-  <advance width="688"/>
-  <outline>
-    <component base="h.sc"/>
-    <component base="uni032E" xOffset="624"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>h.sc+uni032E</string>
-  </dict>
-  </lib>
+	<advance width="688"/>
+	<outline>
+		<component base="h.sc"/>
+		<component base="uni032E" xOffset="624"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>h.sc+uni032E</string>
+		</dict>
+	</lib>
 </glyph>

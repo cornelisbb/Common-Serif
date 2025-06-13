@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.numr" format="2">
-  <advance width="268"/>
-  <outline>
-    <contour>
-      <point x="201.334" y="617" type="line"/>
-      <point x="171.422" y="572.826"/>
-      <point x="85" y="442"/>
-      <point x="49.4087" y="331.806" type="curve"/>
-      <point x="50.5913" y="330.194" type="line"/>
-      <point x="104" y="332" type="line"/>
-      <point x="135" y="437"/>
-      <point x="194.687" y="560"/>
-      <point x="247.687" y="651" type="curve"/>
-      <point x="240.687" y="658" type="line"/>
-      <point x="216.635" y="656.024"/>
-      <point x="191.777" y="655"/>
-      <point x="167.687" y="655" type="curve" smooth="yes"/>
-      <point x="86.6868" y="655" type="line" smooth="yes"/>
-      <point x="82.7204" y="655"/>
-      <point x="55.008" y="656.164"/>
-      <point x="42.9485" y="660" type="curve"/>
-      <point x="38.1819" y="660"/>
-      <point x="34.6868" y="656.505"/>
-      <point x="34.6868" y="652.184" type="curve"/>
-      <point x="33.6868" y="626.184"/>
-      <point x="29.7253" y="594.907"/>
-      <point x="21.6868" y="566" type="curve"/>
-      <point x="42.6868" y="563" type="line"/>
-      <point x="54.1901" y="603.065"/>
-      <point x="72.1287" y="617"/>
-      <point x="118.406" y="617" type="curve" smooth="yes"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=uni2077</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=uni2077</string>
-  <key>public.markColor</key>
-  <string>0.6,0.602,1,1</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>44e84856dcfa4247c9e2fe923839b8de5b35c2971453541e4840bd5fa9f049f7ff7ef88d2cd44a32324be771e4590c88056724241ce9a3be33a9c42732714122</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 351 -21</string>
-          <string>hstem 617 38</string>
-          <string>hstem 658 -20</string>
-          <string>hstem 660 -20</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<advance width="268"/>
+	<outline>
+		<contour>
+			<point x="201.334" y="617" type="line"/>
+			<point x="171.422" y="572.826"/>
+			<point x="85" y="442"/>
+			<point x="49.4087" y="331.806" type="curve"/>
+			<point x="50.5913" y="330.194" type="line"/>
+			<point x="104" y="332" type="line"/>
+			<point x="135" y="437"/>
+			<point x="194.687" y="560"/>
+			<point x="247.687" y="651" type="curve"/>
+			<point x="240.687" y="658" type="line"/>
+			<point x="216.635" y="656.024"/>
+			<point x="191.777" y="655"/>
+			<point x="167.687" y="655" type="curve" smooth="yes"/>
+			<point x="86.6868" y="655" type="line" smooth="yes"/>
+			<point x="82.7204" y="655"/>
+			<point x="55.008" y="656.164"/>
+			<point x="42.9485" y="660" type="curve"/>
+			<point x="38.1819" y="660"/>
+			<point x="34.6868" y="656.505"/>
+			<point x="34.6868" y="652.184" type="curve"/>
+			<point x="33.6868" y="626.184"/>
+			<point x="29.7253" y="594.907"/>
+			<point x="21.6868" y="566" type="curve"/>
+			<point x="42.6868" y="563" type="line"/>
+			<point x="54.1901" y="603.065"/>
+			<point x="72.1287" y="617"/>
+			<point x="118.406" y="617" type="curve" smooth="yes"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=uni2077</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=uni2077</string>
+			<key>public.markColor</key>
+			<string>0.6,0.602,1,1</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 351 -21</string>
+							<string>hstem 617 38</string>
+							<string>hstem 658 -20</string>
+							<string>hstem 660 -20</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>44e84856dcfa4247c9e2fe923839b8de5b35c2971453541e4840bd5fa9f049f7ff7ef88d2cd44a32324be771e4590c88056724241ce9a3be33a9c42732714122</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ubreve" format="2">
-  <advance width="598"/>
-  <unicode hex="016D"/>
-  <anchor x="484" y="10" name="b.ogonek"/>
-  <anchor x="308" y="-60" name="b.minus-60"/>
-  <anchor x="475" y="400" name="t.horn"/>
-  <outline>
-    <component base="u"/>
-    <component base="uni0306" xOffset="454"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>u+uni0306</string>
-  </dict>
-  </lib>
+	<unicode hex="016D"/>
+	<advance width="598"/>
+	<outline>
+		<component base="u"/>
+		<component base="uni0306" xOffset="454"/>
+	</outline>
+	<anchor name="b.ogonek" x="484" y="10"/>
+	<anchor name="b.minus-60" x="308" y="-60"/>
+	<anchor name="t.horn" x="475" y="400"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>u+uni0306</string>
+		</dict>
+	</lib>
 </glyph>

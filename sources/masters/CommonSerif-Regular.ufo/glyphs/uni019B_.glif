@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni019B" format="2">
-  <advance width="531"/>
-  <unicode hex="019B"/>
-  <outline>
-    <component base="lambda"/>
-    <contour>
-      <point x="252" y="519" type="line"/>
-      <point x="365" y="586" type="line"/>
-      <point x="348" y="616" type="line"/>
-      <point x="241" y="554" type="line"/>
-    </contour>
-    <contour>
-      <point x="128" y="447" type="line"/>
-      <point x="235" y="509" type="line"/>
-      <point x="224" y="543" type="line"/>
-      <point x="111" y="477" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=lambda</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=lambda</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w531m252,519l365,586l348,616l241,554m128,447l235,509l224,543l111,477</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 9 -21</string>
-          <string>hstem 10 -21</string>
-          <string>hstem 696 -20</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="019B"/>
+	<advance width="531"/>
+	<outline>
+		<component base="lambda"/>
+		<contour>
+			<point x="252" y="519" type="line"/>
+			<point x="365" y="586" type="line"/>
+			<point x="348" y="616" type="line"/>
+			<point x="241" y="554" type="line"/>
+		</contour>
+		<contour>
+			<point x="128" y="447" type="line"/>
+			<point x="235" y="509" type="line"/>
+			<point x="224" y="543" type="line"/>
+			<point x="111" y="477" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=lambda</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=lambda</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 9 -21</string>
+							<string>hstem 10 -21</string>
+							<string>hstem 696 -20</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w531m252,519l365,586l348,616l241,554m128,447l235,509l224,543l111,477</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

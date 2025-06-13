@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1F8C" format="2">
-  <advance width="797"/>
-  <unicode hex="1F8C"/>
-  <anchor x="438.5" y="590" name="t.ring"/>
-  <anchor x="397.5" y="724" name="t.gr_UC"/>
-  <anchor x="409.5" y="-60" name="b.minus-60"/>
-  <anchor x="679.5" y="10" name="b.ogonek"/>
-  <outline>
-    <component base="uni1F0C"/>
-    <component base="uni0345" xOffset="567.5"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>uni1F0C+uni0345</string>
-  </dict>
-  </lib>
+	<unicode hex="1F8C"/>
+	<advance width="797"/>
+	<outline>
+		<component base="uni1F0C"/>
+		<component base="uni0345" xOffset="567.5"/>
+	</outline>
+	<anchor name="t.ring" x="438.5" y="590"/>
+	<anchor name="t.gr_UC" x="397.5" y="724"/>
+	<anchor name="b.minus-60" x="409.5" y="-60"/>
+	<anchor name="b.ogonek" x="679.5" y="10"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>uni1F0C+uni0345</string>
+		</dict>
+	</lib>
 </glyph>

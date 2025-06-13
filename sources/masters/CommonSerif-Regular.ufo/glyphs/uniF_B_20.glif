@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniFB20" format="2">
-  <advance width="499"/>
-  <unicode hex="FB20"/>
-  <outline>
-    <component base="uni05E2"/>
-  </outline>
+	<unicode hex="FB20"/>
+	<advance width="499"/>
+	<outline>
+		<component base="uni05E2"/>
+	</outline>
 </glyph>

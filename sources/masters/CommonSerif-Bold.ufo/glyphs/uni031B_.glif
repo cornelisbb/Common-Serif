@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni031B" format="2">
-  <unicode hex="031B"/>
-  <anchor x="-68" y="332" name="_t.horn"/>
-  <outline>
-    <contour>
-      <point x="-46" y="334" type="line" smooth="yes"/>
-      <point x="18" y="335"/>
-      <point x="74" y="376"/>
-      <point x="74" y="443" type="curve" smooth="yes"/>
-      <point x="74" y="486"/>
-      <point x="45" y="519"/>
-      <point x="0" y="519" type="curve" smooth="yes"/>
-      <point x="-31" y="519"/>
-      <point x="-51" y="501"/>
-      <point x="-51" y="471" type="curve" smooth="yes"/>
-      <point x="-51" y="417"/>
-      <point x="17" y="441"/>
-      <point x="17" y="406" type="curve" smooth="yes"/>
-      <point x="17" y="385"/>
-      <point x="-22" y="368"/>
-      <point x="-56" y="368" type="curve" smooth="yes"/>
-      <point x="-140" y="366" type="line"/>
-      <point x="-140" y="332" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>0f0d2c3b14e804a18b53523a31136c70f16da884d0b98cbeaaa406c5eaba24507c16b693779ed02e88294e6f9f6d78051d147f200893e71a61ae56f0ef108780</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 332 171</string>
-          <string>hstem 418 85</string>
-          <string>vstem -45 110</string>
-          <string>vstem 29 35</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="031B"/>
+	<outline>
+		<contour>
+			<point x="-46" y="334" type="line" smooth="yes"/>
+			<point x="18" y="335"/>
+			<point x="74" y="376"/>
+			<point x="74" y="443" type="curve" smooth="yes"/>
+			<point x="74" y="486"/>
+			<point x="45" y="519"/>
+			<point x="0" y="519" type="curve" smooth="yes"/>
+			<point x="-31" y="519"/>
+			<point x="-51" y="501"/>
+			<point x="-51" y="471" type="curve" smooth="yes"/>
+			<point x="-51" y="417"/>
+			<point x="17" y="441"/>
+			<point x="17" y="406" type="curve" smooth="yes"/>
+			<point x="17" y="385"/>
+			<point x="-22" y="368"/>
+			<point x="-56" y="368" type="curve" smooth="yes"/>
+			<point x="-140" y="366" type="line"/>
+			<point x="-140" y="332" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="_t.horn" x="-68" y="332"/>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 332 171</string>
+							<string>hstem 418 85</string>
+							<string>vstem -45 110</string>
+							<string>vstem 29 35</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>0f0d2c3b14e804a18b53523a31136c70f16da884d0b98cbeaaa406c5eaba24507c16b693779ed02e88294e6f9f6d78051d147f200893e71a61ae56f0ef108780</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessi" format="2">
-  <advance width="312"/>
-  <unicode hex="0131"/>
-  <anchor x="136" y="500" name="top"/>
-  <anchor x="178" y="-60" name="b.minus-60"/>
-  <outline>
-    <contour>
-      <point x="25" y="-2" type="curve"/>
-      <point x="67" y="-1"/>
-      <point x="114" y="0"/>
-      <point x="167" y="0" type="curve"/>
-      <point x="167" y="122" type="line"/>
-      <point x="97" y="122" type="line"/>
-      <point x="97" y="39"/>
-      <point x="86" y="35"/>
-      <point x="25" y="32" type="curve"/>
-      <point x="19" y="26"/>
-      <point x="19" y="4"/>
-    </contour>
-    <contour>
-      <point x="97" y="322" type="curve"/>
-      <point x="227" y="322" type="line"/>
-      <point x="227" y="373"/>
-      <point x="228" y="402"/>
-      <point x="231" y="427" type="curve"/>
-      <point x="231" y="438"/>
-      <point x="222" y="444"/>
-      <point x="208" y="444" type="curve"/>
-      <point x="179" y="432"/>
-      <point x="95" y="419"/>
-      <point x="30" y="416" type="curve"/>
-      <point x="28" y="411"/>
-      <point x="30" y="389"/>
-      <point x="32" y="382" type="curve"/>
-      <point x="85" y="377"/>
-      <point x="97" y="366"/>
-    </contour>
-    <contour>
-      <point x="97" y="110" type="line"/>
-      <point x="227" y="110" type="line"/>
-      <point x="227" y="322" type="line" smooth="yes" name=".sk1"/>
-      <point x="227" y="373"/>
-      <point x="228" y="402"/>
-      <point x="231" y="427" type="curve"/>
-      <point x="231" y="438"/>
-      <point x="222" y="444"/>
-      <point x="208" y="444" type="curve"/>
-      <point x="179" y="432"/>
-      <point x="95" y="419"/>
-      <point x="30" y="416" type="curve"/>
-      <point x="28" y="411"/>
-      <point x="30" y="389"/>
-      <point x="32" y="382" type="curve"/>
-      <point x="85" y="377"/>
-      <point x="97" y="366"/>
-      <point x="97" y="322" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="157" y="0" type="line"/>
-      <point x="202" y="-1"/>
-      <point x="254" y="-1"/>
-      <point x="299" y="-2" type="curve"/>
-      <point x="305" y="4"/>
-      <point x="305" y="26"/>
-      <point x="299" y="32" type="curve"/>
-      <point x="238" y="35"/>
-      <point x="227" y="39"/>
-      <point x="227" y="122" type="curve"/>
-      <point x="157" y="122" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=20</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=8</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>545df8181fb76dbe30180b10699154b305dc28e70bd6bf37d731efaa66363f0fcb49d9db9e72a98e5f1bde69f138de7261d7c1bc8d4466d3c7f44a0af984ca2f</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -2 34</string>
-          <string>hstem 128 34</string>
-          <string>hstem 190 -20</string>
-          <string>vstem 97 130</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="0131"/>
+	<advance width="312"/>
+	<outline>
+		<contour>
+			<point x="25" y="-2" type="curve"/>
+			<point x="67" y="-1"/>
+			<point x="114" y="0"/>
+			<point x="167" y="0" type="curve"/>
+			<point x="167" y="122" type="line"/>
+			<point x="97" y="122" type="line"/>
+			<point x="97" y="39"/>
+			<point x="86" y="35"/>
+			<point x="25" y="32" type="curve"/>
+			<point x="19" y="26"/>
+			<point x="19" y="4"/>
+		</contour>
+		<contour>
+			<point x="97" y="322" type="curve"/>
+			<point x="227" y="322" type="line"/>
+			<point x="227" y="373"/>
+			<point x="228" y="402"/>
+			<point x="231" y="427" type="curve"/>
+			<point x="231" y="438"/>
+			<point x="222" y="444"/>
+			<point x="208" y="444" type="curve"/>
+			<point x="179" y="432"/>
+			<point x="95" y="419"/>
+			<point x="30" y="416" type="curve"/>
+			<point x="28" y="411"/>
+			<point x="30" y="389"/>
+			<point x="32" y="382" type="curve"/>
+			<point x="85" y="377"/>
+			<point x="97" y="366"/>
+		</contour>
+		<contour>
+			<point x="97" y="110" type="line"/>
+			<point x="227" y="110" type="line"/>
+			<point name=".sk1" x="227" y="322" type="line" smooth="yes"/>
+			<point x="227" y="373"/>
+			<point x="228" y="402"/>
+			<point x="231" y="427" type="curve"/>
+			<point x="231" y="438"/>
+			<point x="222" y="444"/>
+			<point x="208" y="444" type="curve"/>
+			<point x="179" y="432"/>
+			<point x="95" y="419"/>
+			<point x="30" y="416" type="curve"/>
+			<point x="28" y="411"/>
+			<point x="30" y="389"/>
+			<point x="32" y="382" type="curve"/>
+			<point x="85" y="377"/>
+			<point x="97" y="366"/>
+			<point x="97" y="322" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="157" y="0" type="line"/>
+			<point x="202" y="-1"/>
+			<point x="254" y="-1"/>
+			<point x="299" y="-2" type="curve"/>
+			<point x="305" y="4"/>
+			<point x="305" y="26"/>
+			<point x="299" y="32" type="curve"/>
+			<point x="238" y="35"/>
+			<point x="227" y="39"/>
+			<point x="227" y="122" type="curve"/>
+			<point x="157" y="122" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="136" y="500"/>
+	<anchor name="b.minus-60" x="178" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=20</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=8</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -2 34</string>
+							<string>hstem 128 34</string>
+							<string>hstem 190 -20</string>
+							<string>vstem 97 130</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>545df8181fb76dbe30180b10699154b305dc28e70bd6bf37d731efaa66363f0fcb49d9db9e72a98e5f1bde69f138de7261d7c1bc8d4466d3c7f44a0af984ca2f</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

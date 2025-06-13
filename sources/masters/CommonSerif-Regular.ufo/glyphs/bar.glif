@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bar" format="2">
-  <advance width="204"/>
-  <unicode hex="007C"/>
-  <outline>
-    <contour>
-      <point x="124" y="-240" type="curve"/>
-      <point x="124" y="720" type="line"/>
-      <point x="115" y="726"/>
-      <point x="89" y="726"/>
-      <point x="80" y="720" type="curve"/>
-      <point x="80" y="-240" type="line"/>
-      <point x="89" y="-246"/>
-      <point x="115" y="-246"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=80</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=80</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w204m124,-240l124,720c115,726 89,726 80,720l80,-240c89,-246 115,-246 124,-240</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>vstem 80 44</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="007C"/>
+	<advance width="204"/>
+	<outline>
+		<contour>
+			<point x="124" y="-240" type="curve"/>
+			<point x="124" y="720" type="line"/>
+			<point x="115" y="726"/>
+			<point x="89" y="726"/>
+			<point x="80" y="720" type="curve"/>
+			<point x="80" y="-240" type="line"/>
+			<point x="89" y="-246"/>
+			<point x="115" y="-246"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=80</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=80</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>vstem 80 44</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w204m124,-240l124,720c115,726 89,726 80,720l80,-240c89,-246 115,-246 124,-240</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

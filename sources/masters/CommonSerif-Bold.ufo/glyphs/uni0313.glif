@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0313" format="2">
-  <unicode hex="0313"/>
-  <anchor x="-80" y="500" name="_top"/>
-  <outline>
-    <component base="uni02BC" xOffset="-171"/>
-  </outline>
-  <guideline angle="0" x="0" y="687"/>
-  <guideline angle="90" x="-19" y="0"/>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w0</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 599 87</string>
-          <string>vstem -142 123</string>
-          <string>vstem -79 60</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="0313"/>
+	<outline>
+		<component base="uni02BC" xOffset="-171"/>
+	</outline>
+	<anchor name="_top" x="-80" y="500"/>
+	<guideline x="0" y="687" angle="0"/>
+	<guideline x="-19" y="0" angle="90"/>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 599 87</string>
+							<string>vstem -142 123</string>
+							<string>vstem -79 60</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w0</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

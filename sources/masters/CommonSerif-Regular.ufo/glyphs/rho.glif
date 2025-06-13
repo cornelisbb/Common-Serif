@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rho" format="2">
-  <advance width="526"/>
-  <unicode hex="03C1"/>
-  <anchor x="268" y="510" name="t.gr_LC"/>
-  <outline>
-    <contour>
-      <point x="164" y="-220" type="line"/>
-      <point x="157" y="29" type="line"/>
-      <point x="134" y="28" type="line"/>
-      <point x="162" y="11"/>
-      <point x="211" y="-10"/>
-      <point x="254" y="-10" type="curve" smooth="yes"/>
-      <point x="388" y="-10"/>
-      <point x="486" y="78"/>
-      <point x="486" y="231" type="curve" smooth="yes"/>
-      <point x="486" y="345"/>
-      <point x="396" y="439"/>
-      <point x="276" y="439" type="curve" smooth="yes"/>
-      <point x="123" y="439"/>
-      <point x="78" y="317"/>
-      <point x="78" y="184" type="curve"/>
-      <point x="64" y="-228" type="line"/>
-      <point x="74" y="-238" type="line"/>
-    </contour>
-    <contour>
-      <point x="400" y="189" type="curve" smooth="yes"/>
-      <point x="400" y="82"/>
-      <point x="351" y="23"/>
-      <point x="268" y="23" type="curve" smooth="yes"/>
-      <point x="223" y="23"/>
-      <point x="188" y="45"/>
-      <point x="157" y="75" type="curve"/>
-      <point x="157" y="228" type="line" smooth="yes"/>
-      <point x="157" y="374"/>
-      <point x="213" y="401"/>
-      <point x="256" y="401" type="curve" smooth="yes"/>
-      <point x="336" y="401"/>
-      <point x="400" y="347"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=omicron</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>59c66e3cc5becd2cce54a91b160a543f4dd3d1abc408f7fa8d2cb42cd6f8485d6ed1e7337f0a8d93eb6143600d8409588a3b5a65176d0099446735593e56b1f3</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -217 -21</string>
-          <string>hstem -10 33</string>
-          <string>hstem 401 38</string>
-          <string>vstem 71 86</string>
-          <string>vstem 71 89</string>
-          <string>vstem 78 79</string>
-          <string>vstem 400 86</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="03C1"/>
+	<advance width="526"/>
+	<outline>
+		<contour>
+			<point x="164" y="-220" type="line"/>
+			<point x="157" y="29" type="line"/>
+			<point x="134" y="28" type="line"/>
+			<point x="162" y="11"/>
+			<point x="211" y="-10"/>
+			<point x="254" y="-10" type="curve" smooth="yes"/>
+			<point x="388" y="-10"/>
+			<point x="486" y="78"/>
+			<point x="486" y="231" type="curve" smooth="yes"/>
+			<point x="486" y="345"/>
+			<point x="396" y="439"/>
+			<point x="276" y="439" type="curve" smooth="yes"/>
+			<point x="123" y="439"/>
+			<point x="78" y="317"/>
+			<point x="78" y="184" type="curve"/>
+			<point x="64" y="-228" type="line"/>
+			<point x="74" y="-238" type="line"/>
+		</contour>
+		<contour>
+			<point x="400" y="189" type="curve" smooth="yes"/>
+			<point x="400" y="82"/>
+			<point x="351" y="23"/>
+			<point x="268" y="23" type="curve" smooth="yes"/>
+			<point x="223" y="23"/>
+			<point x="188" y="45"/>
+			<point x="157" y="75" type="curve"/>
+			<point x="157" y="228" type="line" smooth="yes"/>
+			<point x="157" y="374"/>
+			<point x="213" y="401"/>
+			<point x="256" y="401" type="curve" smooth="yes"/>
+			<point x="336" y="401"/>
+			<point x="400" y="347"/>
+		</contour>
+	</outline>
+	<anchor name="t.gr_LC" x="268" y="510"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsRight</key>
+			<string>=omicron</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -217 -21</string>
+							<string>hstem -10 33</string>
+							<string>hstem 401 38</string>
+							<string>vstem 71 86</string>
+							<string>vstem 71 89</string>
+							<string>vstem 78 79</string>
+							<string>vstem 400 86</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>59c66e3cc5becd2cce54a91b160a543f4dd3d1abc408f7fa8d2cb42cd6f8485d6ed1e7337f0a8d93eb6143600d8409588a3b5a65176d0099446735593e56b1f3</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1E55" format="2">
-  <advance width="573"/>
-  <unicode hex="1E55"/>
-  <anchor x="345" y="-60" name="b.minus-60"/>
-  <outline>
-    <component base="p"/>
-    <component base="uni0301" xOffset="479"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>p+uni0301</string>
-  </dict>
-  </lib>
+	<unicode hex="1E55"/>
+	<advance width="573"/>
+	<outline>
+		<component base="p"/>
+		<component base="uni0301" xOffset="479"/>
+	</outline>
+	<anchor name="b.minus-60" x="345" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>p+uni0301</string>
+		</dict>
+	</lib>
 </glyph>

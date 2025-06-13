@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni03040300" format="2">
-  <anchor x="-203" y="600" name="_top"/>
-  <outline>
-    <component base="macron" xOffset="-399"/>
-    <contour>
-      <point x="-252" y="750" type="line"/>
-      <point x="-255" y="751"/>
-      <point x="-264" y="751"/>
-      <point x="-268" y="751" type="curve" smooth="yes"/>
-      <point x="-297" y="751"/>
-      <point x="-320" y="731"/>
-      <point x="-326" y="723" type="curve"/>
-      <point x="-328" y="713" type="line"/>
-      <point x="-231" y="618" type="line"/>
-      <point x="-217" y="605"/>
-      <point x="-209" y="600"/>
-      <point x="-203" y="600" type="curve" smooth="yes"/>
-      <point x="-196" y="600"/>
-      <point x="-189" y="607"/>
-      <point x="-189" y="615" type="curve" smooth="yes"/>
-      <point x="-189" y="621"/>
-      <point x="-194" y="633"/>
-      <point x="-197" y="638" type="curve"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>f5096763180063942b2e92749f97a413947166c77adc4a2c3b29d625ddd5a0cfebe0f8c917582ee52466489917132cea039c0b30d3981e15b5001bf3a2b6e1ff</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 530 54</string>
-          <string>hstem 751 -20</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<outline>
+		<component base="macron" xOffset="-399"/>
+		<contour>
+			<point x="-252" y="750" type="line"/>
+			<point x="-255" y="751"/>
+			<point x="-264" y="751"/>
+			<point x="-268" y="751" type="curve" smooth="yes"/>
+			<point x="-297" y="751"/>
+			<point x="-320" y="731"/>
+			<point x="-326" y="723" type="curve"/>
+			<point x="-328" y="713" type="line"/>
+			<point x="-231" y="618" type="line"/>
+			<point x="-217" y="605"/>
+			<point x="-209" y="600"/>
+			<point x="-203" y="600" type="curve" smooth="yes"/>
+			<point x="-196" y="600"/>
+			<point x="-189" y="607"/>
+			<point x="-189" y="615" type="curve" smooth="yes"/>
+			<point x="-189" y="621"/>
+			<point x="-194" y="633"/>
+			<point x="-197" y="638" type="curve"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="-203" y="600"/>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 530 54</string>
+							<string>hstem 751 -20</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>f5096763180063942b2e92749f97a413947166c77adc4a2c3b29d625ddd5a0cfebe0f8c917582ee52466489917132cea039c0b30d3981e15b5001bf3a2b6e1ff</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

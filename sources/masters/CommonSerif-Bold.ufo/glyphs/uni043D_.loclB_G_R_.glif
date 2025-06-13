@@ -1,142 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni043D.loclBGR" format="2">
-  <advance width="587"/>
-  <anchor x="294" y="500" name="top"/>
-  <outline>
-    <contour>
-      <point x="5" y="-2" type="curve"/>
-      <point x="47" y="-1"/>
-      <point x="94" y="0"/>
-      <point x="147" y="0" type="curve"/>
-      <point x="147" y="122" type="line"/>
-      <point x="77" y="122" type="line"/>
-      <point x="77" y="39"/>
-      <point x="66" y="35"/>
-      <point x="5" y="32" type="curve"/>
-      <point x="-1" y="26"/>
-      <point x="-1" y="4"/>
-    </contour>
-    <contour>
-      <point x="77" y="322" type="curve"/>
-      <point x="207" y="322" type="line"/>
-      <point x="207" y="373"/>
-      <point x="208" y="402"/>
-      <point x="211" y="427" type="curve"/>
-      <point x="211" y="438"/>
-      <point x="202" y="444"/>
-      <point x="188" y="444" type="curve"/>
-      <point x="159" y="432"/>
-      <point x="75" y="419"/>
-      <point x="10" y="416" type="curve"/>
-      <point x="8" y="411"/>
-      <point x="10" y="389"/>
-      <point x="12" y="382" type="curve"/>
-      <point x="65" y="377"/>
-      <point x="77" y="366"/>
-    </contour>
-    <contour>
-      <point x="77" y="110" type="line"/>
-      <point x="207" y="110" type="line"/>
-      <point x="207" y="433" type="line" name=".sk1"/>
-      <point x="77" y="433" type="line"/>
-    </contour>
-    <contour>
-      <point x="194" y="212" type="line"/>
-      <point x="389" y="212" type="line"/>
-      <point x="389" y="251" type="line"/>
-      <point x="194" y="251" type="line"/>
-    </contour>
-    <contour>
-      <point x="300" y="-2" type="curve"/>
-      <point x="342" y="-1"/>
-      <point x="389" y="0"/>
-      <point x="442" y="0" type="curve"/>
-      <point x="442" y="122" type="line"/>
-      <point x="372" y="122" type="line"/>
-      <point x="372" y="39"/>
-      <point x="361" y="35"/>
-      <point x="300" y="32" type="curve"/>
-      <point x="294" y="26"/>
-      <point x="294" y="4"/>
-    </contour>
-    <contour>
-      <point x="372" y="322" type="curve"/>
-      <point x="502" y="322" type="line"/>
-      <point x="502" y="373"/>
-      <point x="503" y="402"/>
-      <point x="506" y="427" type="curve"/>
-      <point x="506" y="438"/>
-      <point x="497" y="444"/>
-      <point x="483" y="444" type="curve"/>
-      <point x="454" y="432"/>
-      <point x="370" y="419"/>
-      <point x="305" y="416" type="curve"/>
-      <point x="303" y="411"/>
-      <point x="305" y="389"/>
-      <point x="307" y="382" type="curve"/>
-      <point x="360" y="377"/>
-      <point x="372" y="366"/>
-    </contour>
-    <contour>
-      <point x="372" y="110" type="line"/>
-      <point x="502" y="110" type="line"/>
-      <point x="502" y="433" type="line" name=".sk1"/>
-      <point x="372" y="433" type="line"/>
-    </contour>
-    <contour>
-      <point x="137" y="0" type="line"/>
-      <point x="182" y="-1"/>
-      <point x="234" y="-1"/>
-      <point x="279" y="-2" type="curve"/>
-      <point x="285" y="4"/>
-      <point x="285" y="26"/>
-      <point x="279" y="32" type="curve"/>
-      <point x="218" y="35"/>
-      <point x="207" y="39"/>
-      <point x="207" y="122" type="curve"/>
-      <point x="137" y="122" type="line"/>
-    </contour>
-    <contour>
-      <point x="432" y="0" type="line"/>
-      <point x="477" y="-1"/>
-      <point x="529" y="-1"/>
-      <point x="574" y="-2" type="curve"/>
-      <point x="580" y="4"/>
-      <point x="580" y="26"/>
-      <point x="574" y="32" type="curve"/>
-      <point x="513" y="35"/>
-      <point x="502" y="39"/>
-      <point x="502" y="122" type="curve"/>
-      <point x="432" y="122" type="line"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=dotless</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=dotlessi</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>9373830e49df405cfd54fb01dd6dfea05014fcba5156b4e0607cc41a253117f0621e86a8f542cf3ce781c75897a4cdf833f6983b9fb2759582bddc957d39d41c</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -2 34</string>
-          <string>hstem 128 34</string>
-          <string>hstem 190 -20</string>
-          <string>hstem 212 39</string>
-          <string>vstem 52 130</string>
-          <string>vstem 642 130</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<advance width="587"/>
+	<outline>
+		<contour>
+			<point x="5" y="-2" type="curve"/>
+			<point x="47" y="-1"/>
+			<point x="94" y="0"/>
+			<point x="147" y="0" type="curve"/>
+			<point x="147" y="122" type="line"/>
+			<point x="77" y="122" type="line"/>
+			<point x="77" y="39"/>
+			<point x="66" y="35"/>
+			<point x="5" y="32" type="curve"/>
+			<point x="-1" y="26"/>
+			<point x="-1" y="4"/>
+		</contour>
+		<contour>
+			<point x="77" y="322" type="curve"/>
+			<point x="207" y="322" type="line"/>
+			<point x="207" y="373"/>
+			<point x="208" y="402"/>
+			<point x="211" y="427" type="curve"/>
+			<point x="211" y="438"/>
+			<point x="202" y="444"/>
+			<point x="188" y="444" type="curve"/>
+			<point x="159" y="432"/>
+			<point x="75" y="419"/>
+			<point x="10" y="416" type="curve"/>
+			<point x="8" y="411"/>
+			<point x="10" y="389"/>
+			<point x="12" y="382" type="curve"/>
+			<point x="65" y="377"/>
+			<point x="77" y="366"/>
+		</contour>
+		<contour>
+			<point x="77" y="110" type="line"/>
+			<point x="207" y="110" type="line"/>
+			<point name=".sk1" x="207" y="433" type="line"/>
+			<point x="77" y="433" type="line"/>
+		</contour>
+		<contour>
+			<point x="194" y="212" type="line"/>
+			<point x="389" y="212" type="line"/>
+			<point x="389" y="251" type="line"/>
+			<point x="194" y="251" type="line"/>
+		</contour>
+		<contour>
+			<point x="300" y="-2" type="curve"/>
+			<point x="342" y="-1"/>
+			<point x="389" y="0"/>
+			<point x="442" y="0" type="curve"/>
+			<point x="442" y="122" type="line"/>
+			<point x="372" y="122" type="line"/>
+			<point x="372" y="39"/>
+			<point x="361" y="35"/>
+			<point x="300" y="32" type="curve"/>
+			<point x="294" y="26"/>
+			<point x="294" y="4"/>
+		</contour>
+		<contour>
+			<point x="372" y="322" type="curve"/>
+			<point x="502" y="322" type="line"/>
+			<point x="502" y="373"/>
+			<point x="503" y="402"/>
+			<point x="506" y="427" type="curve"/>
+			<point x="506" y="438"/>
+			<point x="497" y="444"/>
+			<point x="483" y="444" type="curve"/>
+			<point x="454" y="432"/>
+			<point x="370" y="419"/>
+			<point x="305" y="416" type="curve"/>
+			<point x="303" y="411"/>
+			<point x="305" y="389"/>
+			<point x="307" y="382" type="curve"/>
+			<point x="360" y="377"/>
+			<point x="372" y="366"/>
+		</contour>
+		<contour>
+			<point x="372" y="110" type="line"/>
+			<point x="502" y="110" type="line"/>
+			<point name=".sk1" x="502" y="433" type="line"/>
+			<point x="372" y="433" type="line"/>
+		</contour>
+		<contour>
+			<point x="137" y="0" type="line"/>
+			<point x="182" y="-1"/>
+			<point x="234" y="-1"/>
+			<point x="279" y="-2" type="curve"/>
+			<point x="285" y="4"/>
+			<point x="285" y="26"/>
+			<point x="279" y="32" type="curve"/>
+			<point x="218" y="35"/>
+			<point x="207" y="39"/>
+			<point x="207" y="122" type="curve"/>
+			<point x="137" y="122" type="line"/>
+		</contour>
+		<contour>
+			<point x="432" y="0" type="line"/>
+			<point x="477" y="-1"/>
+			<point x="529" y="-1"/>
+			<point x="574" y="-2" type="curve"/>
+			<point x="580" y="4"/>
+			<point x="580" y="26"/>
+			<point x="574" y="32" type="curve"/>
+			<point x="513" y="35"/>
+			<point x="502" y="39"/>
+			<point x="502" y="122" type="curve"/>
+			<point x="432" y="122" type="line"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="294" y="500"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=dotless</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=dotlessi</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -2 34</string>
+							<string>hstem 128 34</string>
+							<string>hstem 190 -20</string>
+							<string>hstem 212 39</string>
+							<string>vstem 52 130</string>
+							<string>vstem 642 130</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>9373830e49df405cfd54fb01dd6dfea05014fcba5156b4e0607cc41a253117f0621e86a8f542cf3ce781c75897a4cdf833f6983b9fb2759582bddc957d39d41c</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -9,7 +9,7 @@
 @public.kern1.cyrl_uni041D_Lt = [uni0406 uni0407 uni0407.calt uni040D uni040D.loclBGR uni040F uni0418 uni0418.loclBGR uni0419 uni0419.loclBGR uni041B uni041D uni041F uni0427 uni0428 uni042B uni042B0300 uni042F uni042F0300 uni04B8 uni04C0 uni04CB uni04E2 uni04E4 uni04F4 uni04F8];
 @public.kern1.cyrl_uni041E_Lt = [uni041E uni042D uni042E uni0472 uni04D8 uni04DA uni04E6 uni04E8 uni04EA uni04EC];
 @public.kern1.cyrl_uni0421_Lt = [uni0421 uni04AA];
-@public.kern1.cyrl_uni0423_Lt = [uni040E uni0423 uni04EE uni04F0 uni04F2];
+@public.kern1.cyrl_uni0423_Lt = [uni040E uni0423 uni0474 uni0476 uni04EE uni04F0 uni04F2];
 @public.kern1.cyrl_uni042A_Lt = [uni042A uni042C];
 @public.kern1.cyrl_uni0430_Lt = [uni0430 uni04D1 uni04D3];
 @public.kern1.cyrl_uni0433_Lt = [uni0433 uni0442 uni0453 uni0491 uni0493 uni04A5 uni04AD uni04F7];
@@ -27,7 +27,7 @@
 @public.kern1.cyrl_uni0456_Lt = [uni0456 uni0457];
 @public.kern1.cyrl_uni0460_Lt = [uni0460 uni047C uni047E];
 @public.kern1.cyrl_uni0461_Lt = [uni0461 uni047D uni047F];
-@public.kern1.cyrl_uni0474_Lt = [uni0474 uni0475 uni0476 uni0477];
+@public.kern1.cyrl_uni0475_Lt = [uni0475 uni0477];
 @public.kern1.grek_Alpha_Lt = [Alpha Alphatonos Lambda uni0394 uni1F08 uni1F09 uni1F0A uni1F0B uni1F0C uni1F0D uni1F0E uni1F0F uni1FB8 uni1FB9 uni1FBA uni1FBB];
 @public.kern1.grek_Chi_Lt = [Chi Kappa];
 @public.kern1.grek_Epsilon_Lt = [Epsilon Epsilontonos uni1F18 uni1F19 uni1F1A uni1F1B uni1F1C uni1F1D uni1FC8 uni1FC9];
@@ -78,7 +78,6 @@
 @public.kern1.latn_b_Lt = [b o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde p thorn uni01D2 uni01DD uni01EB uni01ED uni020D uni020F uni022B uni022D uni022F uni0231 uni0259 uni1E03 uni1E05 uni1E07 uni1E4D uni1E4F uni1E51 uni1E53 uni1E55 uni1E57 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni2184];
 @public.kern1.latn_c.sc_Lt = [c.sc cacute.sc ccaron.sc ccedilla.sc];
 @public.kern1.latn_c_Lt = [c cacute ccaron ccedilla ccircumflex cdotaccent uni1E09 uni217D];
-@public.kern1.latn_comma_Lt = [comma ellipsis period quotedblbase quotesinglbase underscore uni2000 uni2001 uni2002 uni2003 uni2004 uni2005 uni2006 uni2007 uni2008];
 @public.kern1.latn_d.sc_Lt = [d.sc dcroat.sc eth.sc o.sc oacute.sc ocircumflex.sc odieresis.sc ograve.sc oslash.sc otilde.sc q.sc q.sc.u];
 @public.kern1.latn_d_Lt = [d dcaron uni018C uni1E0B uni1E0D uni1E0F uni1E11 uni1E13];
 @public.kern1.latn_e_Lt = [ae aeacute e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek uni01E3 uni0205 uni0207 uni0229 uni1E15 uni1E17 uni1E19 uni1E1B uni1E1D uni1EB9 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7];
@@ -121,7 +120,6 @@
 @public.kern2.cyrl_uni0427_Rt = [uni0427 uni0474 uni0476 uni04B6];
 @public.kern2.cyrl_uni042D_Rt = [uni042D uni04EC];
 @public.kern2.cyrl_uni0430_Rt = [uni0430 uni0437 uni044D uni044F uni04D1 uni04D3 uni04D5];
-@public.kern2.cyrl_uni0435_Rt = [uni04D9];
 @public.kern2.cyrl_uni0436_Rt = [uni0436 uni04B3 uni04DD];
 @public.kern2.cyrl_uni0438.loclBGR_Rt = [uni0438.loclBGR uni0439.loclBGR uni045D.loclBGR];
 @public.kern2.cyrl_uni0438_Rt = [uni0432 uni0433 uni0438 uni0439 uni043A uni043C uni043D uni043F uni044B uni044C uni0453 uni045A uni045C uni045D uni0491 uni04A5 uni04E3 uni04E5 uni04F9];
@@ -173,7 +171,6 @@
 @public.kern2.grek_uni1FFB_Rt = [Omegatonos uni1FFB];
 @public.kern2.grek_upsilon_Rt = [uni1F50 uni1F51 uni1F52 uni1F53 uni1F54 uni1F55 uni1F56 uni1F57 uni1F7A uni1F7B uni1FE0 uni1FE1 uni1FE2 uni1FE3 uni1FE6 uni1FE7 upsilon upsilondieresis upsilondieresistonos upsilontonos];
 @public.kern2.latn_A_Rt = [A AE AEacute Aacute Abreve Acircumflex Adieresis Adieresis.alt Agrave Amacron Aogonek Aring Aringacute Atilde uni01CD uni01DE uni01E0 uni01E2 uni0200 uni0202 uni0226 uni1E00 uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6];
-@public.kern2.latn_C_Rt = [six.fitted zero.fitted zero.slash.fitted];
 @public.kern2.latn_Eth_Rt = [Dcroat Eth uni0189];
 @public.kern2.latn_H_Rt = [B D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eng.UCStyle Eogonek F H Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde K L Lacute Lcaron Ldot P Thorn uni0136 uni013B uni0182 uni0198 uni01C5 uni01CF uni01E8 uni01F2 uni0204 uni0206 uni0208 uni020A uni021E uni0228 uni1E02 uni1E04 uni1E06 uni1E0A uni1E0C uni1E0E uni1E10 uni1E12 uni1E14 uni1E16 uni1E18 uni1E1A uni1E1C uni1E1E uni1E22 uni1E24 uni1E26 uni1E28 uni1E2A uni1E2C uni1E2E uni1E30 uni1E32 uni1E34 uni1E36 uni1E38 uni1E3A uni1E3C uni1E54 uni1E56 uni1EB8 uni1EBA uni1EBC uni1EBE uni1EC0 uni1EC2 uni1EC4 uni1EC6 uni1EC8 uni1ECA uni2160 uni2161 uni216C uni216E];
 @public.kern2.latn_J_Rt = [J Jcircumflex];
@@ -12252,14 +12249,14 @@ feature ccmp {
 
 feature mark {
   lookupflag RightToLeft;
-  markClass [\hatafsegolmeteg \hatafpatahmeteg \hatafqamatsmeteg \hiriqmeteg \tseremeteg \segolmeteg \patahmeteg \qamatsmeteg ] <anchor 174 0> @meteg;
-  markClass [\uni05B0 \uni05B4 \uni05BD ] <anchor 35 0> @hbsmall;
-  markClass [\uni05B1 \uni05B2 \uni05B3 ] <anchor 150 0> @hbwide;
-  markClass [\uni05B5 \uni05B6 \uni05B7 \uni05B8 ] <anchor 91 0> @hbmiddle;
+  markClass [\hatafsegolmeteg \hatafpatahmeteg \hatafqamatsmeteg \hiriqmeteg \tseremeteg \segolmeteg \patahmeteg \qamatsmeteg ] <anchor 180 0> @meteg;
+  markClass [\uni05B0 \uni05B4 \uni05BD ] <anchor 41 0> @hbsmall;
+  markClass [\uni05B1 \uni05B2 \uni05B3 ] <anchor 156 0> @hbwide;
+  markClass [\uni05B5 \uni05B6 \uni05B7 \uni05B8 ] <anchor 97 0> @hbmiddle;
   markClass [\uni05B9 \uni05BA ] <anchor 0 0> @holem;
   markClass [\patah.ganuv ] <anchor 0 0> @ganuv;
-  markClass [\uni05BB ] <anchor 147 0> @qubuts;
-  markClass [\uni05BC ] <anchor 35 251> @dagesh;
+  markClass [\uni05BB ] <anchor 153 0> @qubuts;
+  markClass [\uni05BC ] <anchor 0 252> @dagesh;
   pos base [\uni05D0 \uniFB30 ] <anchor 280 0> mark @meteg
 	<anchor 280 0> mark @hbmiddle
 	<anchor 280 0> mark @hbwide

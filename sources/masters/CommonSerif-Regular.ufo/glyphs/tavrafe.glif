@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tavrafe" format="2">
-  <advance width="515"/>
-  <anchor x="245" y="0" name="Anchor-16"/>
-  <anchor x="257" y="0" name="Anchor-14"/>
-  <anchor x="0" y="0" name="Anchor-13"/>
-  <anchor x="257" y="0" name="Anchor-12"/>
-  <anchor x="257" y="0" name="Anchor-11"/>
-  <anchor x="257" y="0" name="Anchor-10"/>
-  <outline>
-    <component base="uni05BF" xOffset="196"/>
-    <component base="uni05EA"/>
-  </outline>
+	<advance width="515"/>
+	<outline>
+		<component base="uni05BF" xOffset="196"/>
+		<component base="uni05EA"/>
+	</outline>
 </glyph>

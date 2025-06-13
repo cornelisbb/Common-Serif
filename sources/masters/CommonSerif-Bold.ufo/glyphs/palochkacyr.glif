@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="palochkacyr" format="2">
-  <advance width="314"/>
-  <unicode hex="04CF"/>
-  <outline>
-    <component base="l"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=l</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=l</string>
-  </dict>
-  </lib>
+	<unicode hex="04CF"/>
+	<advance width="314"/>
+	<outline>
+		<component base="l"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=l</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=l</string>
+		</dict>
+	</lib>
 </glyph>

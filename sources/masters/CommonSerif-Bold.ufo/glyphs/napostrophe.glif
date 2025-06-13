@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="napostrophe" format="2">
-  <advance width="605"/>
-  <unicode hex="0149"/>
-  <anchor x="222" y="500" name="top"/>
-  <anchor x="293" y="-60" name="b.minus-60"/>
-  <anchor x="-12" y="652" name="apostrophe"/>
-  <outline>
-    <component base="n" xOffset="-10"/>
-    <component base="quoteright" xOffset="-20.1168" yOffset="20"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=n-30</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=n</string>
-  <key>com.fontlab.recipe</key>
-  <string>=n+quoteright@0,520</string>
-  </dict>
-  </lib>
+	<unicode hex="0149"/>
+	<advance width="605"/>
+	<outline>
+		<component base="n" xOffset="-10"/>
+		<component base="quoteright" xOffset="-20.1168" yOffset="20"/>
+	</outline>
+	<anchor name="top" x="222" y="500"/>
+	<anchor name="b.minus-60" x="293" y="-60"/>
+	<anchor name="apostrophe" x="-12" y="652"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=n-30</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=n</string>
+			<key>com.fontlab.recipe</key>
+			<string>=n+quoteright@0,520</string>
+		</dict>
+	</lib>
 </glyph>

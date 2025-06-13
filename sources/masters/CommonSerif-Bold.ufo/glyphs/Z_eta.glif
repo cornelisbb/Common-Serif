@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Zeta" format="2">
-  <advance width="624"/>
-  <unicode hex="0396"/>
-  <anchor x="354" y="740" name="top"/>
-  <anchor x="288" y="-60" name="b.minus-60"/>
-  <outline>
-    <component base="Z"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.autolayer</key>
-  <true/>
-  <key>com.fontlab.recipe</key>
-  <string>Z</string>
-  </dict>
-  </lib>
+	<unicode hex="0396"/>
+	<advance width="624"/>
+	<outline>
+		<component base="Z"/>
+	</outline>
+	<anchor name="top" x="354" y="740"/>
+	<anchor name="b.minus-60" x="288" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.autolayer</key>
+			<true/>
+			<key>com.fontlab.recipe</key>
+			<string>Z</string>
+		</dict>
+	</lib>
 </glyph>

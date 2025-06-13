@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0314" format="2">
-  <unicode hex="0314"/>
-  <anchor x="-77" y="500" name="_top"/>
-  <outline>
-    <component base="uni0313" xScale="-1" xOffset="-157"/>
-  </outline>
-  <guideline angle="90" x="-135" y="0"/>
-  <guideline angle="0" x="0" y="640"/>
-  <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>=uni0313@~,500</string>
-  </dict>
-  </lib>
+	<unicode hex="0314"/>
+	<outline>
+		<component base="uni0313" xScale="-1" xOffset="-157"/>
+	</outline>
+	<anchor name="_top" x="-77" y="500"/>
+	<guideline x="-135" y="0" angle="90"/>
+	<guideline x="0" y="640" angle="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.recipe</key>
+			<string>=uni0313@~,500</string>
+		</dict>
+	</lib>
 </glyph>

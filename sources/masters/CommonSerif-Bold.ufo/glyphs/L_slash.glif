@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lslash" format="2">
-  <advance width="577"/>
-  <unicode hex="0141"/>
-  <outline>
-    <component base="L"/>
-    <contour>
-      <point x="240" y="350" type="line"/>
-      <point x="344" y="410" type="line"/>
-      <point x="344" y="424"/>
-      <point x="335" y="445"/>
-      <point x="319" y="453" type="curve"/>
-      <point x="240" y="401" type="line"/>
-    </contour>
-    <contour>
-      <point x="43" y="227" type="curve"/>
-      <point x="128" y="281" type="line"/>
-      <point x="128" y="332" type="line"/>
-      <point x="17" y="271" type="line"/>
-      <point x="17" y="250"/>
-      <point x="29" y="234"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w577m240,350l344,410c344,424 335,445 319,453l240,401m43,227l128,281l128,332l17,271c17,250 29,234 43,227</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 0 42</string>
-          <string>hstem 19 -21</string>
-          <string>hstem 613 34</string>
-          <string>hstem 645 -20</string>
-          <string>vstem 114 140</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="0141"/>
+	<advance width="577"/>
+	<outline>
+		<component base="L"/>
+		<contour>
+			<point x="240" y="350" type="line"/>
+			<point x="344" y="410" type="line"/>
+			<point x="344" y="424"/>
+			<point x="335" y="445"/>
+			<point x="319" y="453" type="curve"/>
+			<point x="240" y="401" type="line"/>
+		</contour>
+		<contour>
+			<point x="43" y="227" type="curve"/>
+			<point x="128" y="281" type="line"/>
+			<point x="128" y="332" type="line"/>
+			<point x="17" y="271" type="line"/>
+			<point x="17" y="250"/>
+			<point x="29" y="234"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem 0 42</string>
+							<string>hstem 19 -21</string>
+							<string>hstem 613 34</string>
+							<string>hstem 645 -20</string>
+							<string>vstem 114 140</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>w577m240,350l344,410c344,424 335,445 319,453l240,401m43,227l128,281l128,332l17,271c17,250 29,234 43,227</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

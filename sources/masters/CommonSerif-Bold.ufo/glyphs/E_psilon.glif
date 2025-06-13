@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Epsilon" format="2">
-  <advance width="620"/>
-  <unicode hex="0395"/>
-  <anchor x="364" y="10" name="b.ogonek"/>
-  <anchor x="337" y="-60" name="b.minus-60"/>
-  <anchor x="370" y="0" name="b.cedilla"/>
-  <outline>
-    <component base="E"/>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=H</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=E</string>
-  <key>com.fontlab.recipe</key>
-  <string>E</string>
-  </dict>
-  </lib>
+	<unicode hex="0395"/>
+	<advance width="620"/>
+	<outline>
+		<component base="E"/>
+	</outline>
+	<anchor name="b.ogonek" x="364" y="10"/>
+	<anchor name="b.minus-60" x="337" y="-60"/>
+	<anchor name="b.cedilla" x="370" y="0"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=H</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=E</string>
+			<key>com.fontlab.recipe</key>
+			<string>E</string>
+		</dict>
+	</lib>
 </glyph>

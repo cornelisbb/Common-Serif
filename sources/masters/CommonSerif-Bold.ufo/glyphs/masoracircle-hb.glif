@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="masoracircle-hb" format="2">
-  <unicode hex="05AF"/>
-  <outline>
-    <component base="uni030A" xOffset="170"/>
-  </outline>
+	<unicode hex="05AF"/>
+	<outline>
+		<component base="uni030A" xOffset="170"/>
+	</outline>
 </glyph>

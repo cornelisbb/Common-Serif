@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tugrik" format="2">
-  <advance width="652"/>
-  <unicode hex="20AE"/>
-  <outline>
-    <component base="T"/>
-    <contour>
-      <point x="347" y="383" type="line"/>
-      <point x="497" y="469" type="line"/>
-      <point x="497" y="479"/>
-      <point x="490" y="495"/>
-      <point x="479" y="499" type="curve"/>
-      <point x="347" y="424" type="line"/>
-    </contour>
-    <contour>
-      <point x="192" y="294" type="curve"/>
-      <point x="288" y="350" type="line"/>
-      <point x="288" y="390" type="line"/>
-      <point x="174" y="325" type="line"/>
-      <point x="174" y="310"/>
-      <point x="183" y="299"/>
-    </contour>
-    <contour>
-      <point x="347" y="283" type="line"/>
-      <point x="497" y="369" type="line"/>
-      <point x="497" y="379"/>
-      <point x="490" y="395"/>
-      <point x="479" y="399" type="curve"/>
-      <point x="347" y="324" type="line"/>
-    </contour>
-    <contour>
-      <point x="192" y="194" type="curve"/>
-      <point x="288" y="250" type="line"/>
-      <point x="288" y="290" type="line"/>
-      <point x="174" y="225" type="line"/>
-      <point x="174" y="210"/>
-      <point x="183" y="199"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.recipe</key>
-  <string>T</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>7a0283e58c4508464838d2bb8bb074262b67bab3512d6f543ec88e840cdbce021c19749627c36cfef6228247d46195903dd56b47fd3fabb3b1a281d05992031f</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -2 34</string>
-          <string>hstem 21 -21</string>
-          <string>hstem 604 41</string>
-          <string>vstem 265 140</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="20AE"/>
+	<advance width="652"/>
+	<outline>
+		<component base="T"/>
+		<contour>
+			<point x="347" y="383" type="line"/>
+			<point x="497" y="469" type="line"/>
+			<point x="497" y="479"/>
+			<point x="490" y="495"/>
+			<point x="479" y="499" type="curve"/>
+			<point x="347" y="424" type="line"/>
+		</contour>
+		<contour>
+			<point x="192" y="294" type="curve"/>
+			<point x="288" y="350" type="line"/>
+			<point x="288" y="390" type="line"/>
+			<point x="174" y="325" type="line"/>
+			<point x="174" y="310"/>
+			<point x="183" y="299"/>
+		</contour>
+		<contour>
+			<point x="347" y="283" type="line"/>
+			<point x="497" y="369" type="line"/>
+			<point x="497" y="379"/>
+			<point x="490" y="395"/>
+			<point x="479" y="399" type="curve"/>
+			<point x="347" y="324" type="line"/>
+		</contour>
+		<contour>
+			<point x="192" y="194" type="curve"/>
+			<point x="288" y="250" type="line"/>
+			<point x="288" y="290" type="line"/>
+			<point x="174" y="225" type="line"/>
+			<point x="174" y="210"/>
+			<point x="183" y="199"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.fontlab.recipe</key>
+			<string>T</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -2 34</string>
+							<string>hstem 21 -21</string>
+							<string>hstem 604 41</string>
+							<string>vstem 265 140</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>7a0283e58c4508464838d2bb8bb074262b67bab3512d6f543ec88e840cdbce021c19749627c36cfef6228247d46195903dd56b47fd3fabb3b1a281d05992031f</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

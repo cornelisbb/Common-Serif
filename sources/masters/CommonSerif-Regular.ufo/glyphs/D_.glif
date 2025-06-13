@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="D" format="2">
-  <advance width="703"/>
-  <unicode hex="0044"/>
-  <anchor x="302" y="740" name="top"/>
-  <anchor x="332" y="-60" name="b.minus-60"/>
-  <outline>
-    <contour>
-      <point x="333" y="-2" type="curve" smooth="yes"/>
-      <point x="474" y="-2"/>
-      <point x="660" y="62"/>
-      <point x="660" y="308" type="curve" smooth="yes"/>
-      <point x="660" y="494"/>
-      <point x="507" y="647"/>
-      <point x="315" y="647" type="curve" smooth="yes"/>
-      <point x="246" y="647"/>
-      <point x="176" y="645"/>
-      <point x="147" y="645" type="curve" name=".sk1"/>
-      <point x="122" y="645"/>
-      <point x="87" y="646"/>
-      <point x="20" y="647" type="curve"/>
-      <point x="14" y="641"/>
-      <point x="14" y="620"/>
-      <point x="20" y="614" type="curve"/>
-      <point x="98" y="611"/>
-      <point x="107" y="600"/>
-      <point x="107" y="525" type="curve"/>
-      <point x="107" y="120" type="line" name=".sk2"/>
-      <point x="107" y="45"/>
-      <point x="98" y="34"/>
-      <point x="20" y="31" type="curve"/>
-      <point x="13" y="25"/>
-      <point x="13" y="4"/>
-      <point x="19" y="-2" type="curve"/>
-      <point x="86" y="-1"/>
-      <point x="120" y="0"/>
-      <point x="146" y="0" type="curve"/>
-      <point x="182" y="0"/>
-      <point x="258" y="-2"/>
-    </contour>
-    <contour>
-      <point x="193" y="84" type="curve" smooth="yes"/>
-      <point x="193" y="564" type="line" smooth="yes"/>
-      <point x="193" y="599"/>
-      <point x="228" y="613"/>
-      <point x="277" y="613" type="curve" smooth="yes"/>
-      <point x="493" y="613"/>
-      <point x="564" y="438"/>
-      <point x="564" y="284" type="curve" smooth="yes"/>
-      <point x="564" y="82"/>
-      <point x="443" y="32"/>
-      <point x="302" y="32" type="curve" smooth="yes"/>
-      <point x="204" y="32"/>
-      <point x="193" y="52"/>
-    </contour>
-  </outline>
-  <lib>
-  <dict>
-  <key>com.fontlab.metricsLeft</key>
-  <string>=H</string>
-  <key>com.fontlab.metricsRight</key>
-  <string>=43</string>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>e7490d8346448a4b208d3a309a95751e27e1888919b42ba0ed5f9115a6c09669d434e4dc733c6866c932071a04b122fe0db2b5831b3f58e40f219a5537212c8b</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem -2 34</string>
-          <string>hstem 21 -21</string>
-          <string>hstem 613 34</string>
-          <string>hstem 645 -20</string>
-          <string>vstem 106 86</string>
-          <string>vstem 563 96</string>
-        </array>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
+	<unicode hex="0044"/>
+	<advance width="703"/>
+	<outline>
+		<contour>
+			<point x="333" y="-2" type="curve" smooth="yes"/>
+			<point x="474" y="-2"/>
+			<point x="660" y="62"/>
+			<point x="660" y="308" type="curve" smooth="yes"/>
+			<point x="660" y="494"/>
+			<point x="507" y="647"/>
+			<point x="315" y="647" type="curve" smooth="yes"/>
+			<point x="246" y="647"/>
+			<point x="176" y="645"/>
+			<point name=".sk1" x="147" y="645" type="curve"/>
+			<point x="122" y="645"/>
+			<point x="87" y="646"/>
+			<point x="20" y="647" type="curve"/>
+			<point x="14" y="641"/>
+			<point x="14" y="620"/>
+			<point x="20" y="614" type="curve"/>
+			<point x="98" y="611"/>
+			<point x="107" y="600"/>
+			<point x="107" y="525" type="curve"/>
+			<point name=".sk2" x="107" y="120" type="line"/>
+			<point x="107" y="45"/>
+			<point x="98" y="34"/>
+			<point x="20" y="31" type="curve"/>
+			<point x="13" y="25"/>
+			<point x="13" y="4"/>
+			<point x="19" y="-2" type="curve"/>
+			<point x="86" y="-1"/>
+			<point x="120" y="0"/>
+			<point x="146" y="0" type="curve"/>
+			<point x="182" y="0"/>
+			<point x="258" y="-2"/>
+		</contour>
+		<contour>
+			<point x="193" y="84" type="curve" smooth="yes"/>
+			<point x="193" y="564" type="line" smooth="yes"/>
+			<point x="193" y="599"/>
+			<point x="228" y="613"/>
+			<point x="277" y="613" type="curve" smooth="yes"/>
+			<point x="493" y="613"/>
+			<point x="564" y="438"/>
+			<point x="564" y="284" type="curve" smooth="yes"/>
+			<point x="564" y="82"/>
+			<point x="443" y="32"/>
+			<point x="302" y="32" type="curve" smooth="yes"/>
+			<point x="204" y="32"/>
+			<point x="193" y="52"/>
+		</contour>
+	</outline>
+	<anchor name="top" x="302" y="740"/>
+	<anchor name="b.minus-60" x="332" y="-60"/>
+	<lib>
+		<dict>
+			<key>com.fontlab.metricsLeft</key>
+			<string>=H</string>
+			<key>com.fontlab.metricsRight</key>
+			<string>=43</string>
+			<key>public.postscript.hints</key>
+			<dict>
+				<key>formatVersion</key>
+				<string>1</string>
+				<key>hintSetList</key>
+				<array>
+					<dict>
+						<key>stems</key>
+						<array>
+							<string>hstem -2 34</string>
+							<string>hstem 21 -21</string>
+							<string>hstem 613 34</string>
+							<string>hstem 645 -20</string>
+							<string>vstem 106 86</string>
+							<string>vstem 563 96</string>
+						</array>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>e7490d8346448a4b208d3a309a95751e27e1888919b42ba0ed5f9115a6c09669d434e4dc733c6866c932071a04b122fe0db2b5831b3f58e40f219a5537212c8b</string>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -27,12 +27,12 @@
     <dimension name="weight" xvalue="400"/>
    </location>
   </instance>
-  <instance name="MediumItalic" familyname="Common Serif" filename="instances/CommonSerif-MediumItalic.ufo" stylename="Medium Italic">
+  <instance name="MediumItalic" familyname="Common Serif" filename="instances/CommonSerif-MediumItalic.ufo" stylename="Italic">
    <location>
     <dimension name="weight" xvalue="500"/>
    </location>
   </instance>
-  <instance name="SemiBoldItalic" familyname="Common Serif" filename="instances/CommonSerif-SemiBoldItalic.ufo" stylename="SemiBold Italic">
+  <instance name="SemiBoldItalic" familyname="Common Serif" filename="instances/CommonSerif-SemiBoldItalic.ufo" stylename="Italic">
    <location>
     <dimension name="weight" xvalue="600"/>
    </location>
